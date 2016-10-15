@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="1070" defaultVersion="1090" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LynDocument">
+            <connections>
+                <outlet property="btnProjectNavigator" destination="101501" id="101528"/>
+                <outlet property="btnShowNavigator" destination="101720" id="101729"/>
+                <outlet property="btnShowUtilities" destination="101726" id="101730"/>
+                <outlet property="btnWarningsNavigator" destination="101512" id="101530"/>
+                <outlet property="debugController" destination="101748" id="101751"/>
+                <outlet property="editorView" destination="100039" id="100994"/>
+                <outlet property="inspectorView" destination="100833" id="100985"/>
+                <outlet property="itmShowNavigator" destination="101722" id="101731"/>
+                <outlet property="itmShowUtilities" destination="101725" id="101732"/>
+                <outlet property="libraryView" destination="101752" id="KOZ-Np-Yap"/>
+                <outlet property="navigatorsTabView" destination="101392" id="101531"/>
+                <outlet property="navigatorsView" destination="101299" id="101532"/>
+                <outlet property="projectOutlineView" destination="101171" id="101189"/>
+                <outlet property="splitView" destination="100030" id="101736"/>
+                <outlet property="statusView" destination="101742" id="101744"/>
+                <outlet property="utilitiesView" destination="100856" id="101243"/>
+                <outlet property="warningsView" destination="100858" id="101284"/>
+                <outlet property="window" destination="5" id="18"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="101748" customClass="DebugController">
+            <connections>
+                <outlet property="btnRun" destination="101715" id="101749"/>
+            </connections>
+        </customObject>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" wantsToBeColor="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" userLabel="Window">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
+            <rect key="contentRect" x="133" y="235" width="1000" height="550"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <value key="minSize" type="size" width="602" height="301"/>
+            <view key="contentView" appearanceType="aqua" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="1000" height="550"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <splitView dividerStyle="thin" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="100030">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="550"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <customView id="101299">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <tabView type="noTabsNoBorder" initialItem="101393" translatesAutoresizingMaskIntoConstraints="NO" id="101392">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="528"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                        <tabViewItems>
+                                            <tabViewItem label="ProjectOutline" identifier="1" id="101393">
+                                                <view key="view" id="101394">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="528"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="101171" customClass="LynProjectOutlineView">
+                                                            <rect key="frame" x="0.0" y="0.0" width="200" height="528"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                            <connections>
+                                                                <outlet property="document" destination="-2" id="101173"/>
+                                                                <outlet property="editorView" destination="100039" id="101174"/>
+                                                                <outlet property="inspectorView" destination="100833" id="101175"/>
+                                                                <outlet property="nextKeyView" destination="100039" id="101290"/>
+                                                            </connections>
+                                                        </customView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="101171" firstAttribute="top" secondItem="101394" secondAttribute="top" id="MDW-nV-pCw"/>
+                                                        <constraint firstAttribute="bottom" secondItem="101171" secondAttribute="bottom" id="Rli-5V-DBK"/>
+                                                        <constraint firstItem="101171" firstAttribute="leading" secondItem="101394" secondAttribute="leading" id="sBg-NY-kLy"/>
+                                                        <constraint firstAttribute="trailing" secondItem="101171" secondAttribute="trailing" id="sPj-tq-1a5"/>
+                                                    </constraints>
+                                                </view>
+                                            </tabViewItem>
+                                            <tabViewItem label="Warnings" identifier="2" id="101395">
+                                                <view key="view" id="101396">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="380"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="100858" customClass="LynWarningsView">
+                                                            <rect key="frame" x="0.0" y="0.0" width="200" height="380"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="101536"/>
+                                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="101537"/>
+                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="101539"/>
+                                                            </constraints>
+                                                            <connections>
+                                                                <outlet property="delegate" destination="101171" id="101297"/>
+                                                                <outlet property="document" destination="-2" id="101295"/>
+                                                                <outlet property="nextKeyView" destination="101171" id="101293"/>
+                                                            </connections>
+                                                        </customView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="100858" firstAttribute="bottom" secondItem="101396" secondAttribute="bottom" id="101424"/>
+                                                        <constraint firstItem="100858" firstAttribute="leading" secondItem="101396" secondAttribute="leading" id="101426"/>
+                                                        <constraint firstItem="100858" firstAttribute="top" secondItem="101396" secondAttribute="top" id="101533"/>
+                                                        <constraint firstItem="100858" firstAttribute="trailing" secondItem="101396" secondAttribute="trailing" id="101535"/>
+                                                    </constraints>
+                                                </view>
+                                            </tabViewItem>
+                                        </tabViewItems>
+                                    </tabView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="wkV-nh-fhs">
+                                        <rect key="frame" x="0.0" y="528" width="200" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="101310">
+                                                <rect key="frame" x="-1" y="-1" width="202" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="23" id="101578"/>
+                                                </constraints>
+                                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="101311">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="101310" firstAttribute="leading" secondItem="wkV-nh-fhs" secondAttribute="leading" constant="-1" id="2ae-TC-4Z5"/>
+                                            <constraint firstAttribute="height" constant="23" id="jF9-uq-Yki"/>
+                                            <constraint firstItem="101310" firstAttribute="top" secondItem="wkV-nh-fhs" secondAttribute="top" id="kf9-QX-N0h"/>
+                                            <constraint firstAttribute="trailing" secondItem="101310" secondAttribute="trailing" constant="-1" id="s93-q3-8UR"/>
+                                        </constraints>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="101566">
+                                        <rect key="frame" x="43" y="528" width="115" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="101501">
+                                                <rect key="frame" x="20" y="-1" width="38" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="101507"/>
+                                                </constraints>
+                                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSFolder" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="101502">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <connections>
+                                                    <action selector="showProjectNavigator:" target="-2" id="101527"/>
+                                                </connections>
+                                            </button>
+                                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="101512">
+                                                <rect key="frame" x="57" y="-1" width="38" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="38" id="101513"/>
+                                                </constraints>
+                                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSCaution" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="101515">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <connections>
+                                                    <action selector="showWarningsNavigator:" target="-2" id="101529"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="101512" firstAttribute="top" secondItem="101566" secondAttribute="top" id="101567"/>
+                                            <constraint firstAttribute="bottom" secondItem="101501" secondAttribute="bottom" id="101569"/>
+                                            <constraint firstItem="101501" firstAttribute="leading" secondItem="101566" secondAttribute="leading" constant="20" symbolic="YES" id="101570"/>
+                                            <constraint firstItem="101501" firstAttribute="top" secondItem="101566" secondAttribute="top" id="101571"/>
+                                            <constraint firstAttribute="bottom" secondItem="101512" secondAttribute="bottom" id="101572"/>
+                                            <constraint firstAttribute="width" constant="115" id="101582"/>
+                                            <constraint firstAttribute="trailing" secondItem="101512" secondAttribute="trailing" constant="20" symbolic="YES" id="101583"/>
+                                            <constraint firstAttribute="height" constant="23" id="Hsx-XV-NeN"/>
+                                        </constraints>
+                                    </customView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="101356"/>
+                                    <constraint firstItem="101392" firstAttribute="leading" secondItem="101299" secondAttribute="leading" id="101442"/>
+                                    <constraint firstItem="101392" firstAttribute="bottom" secondItem="101299" secondAttribute="bottom" id="101443"/>
+                                    <constraint firstItem="101392" firstAttribute="trailing" secondItem="101299" secondAttribute="trailing" id="101453"/>
+                                    <constraint firstItem="101392" firstAttribute="top" secondItem="101299" secondAttribute="top" constant="22" id="101492"/>
+                                    <constraint firstItem="101566" firstAttribute="top" secondItem="101299" secondAttribute="top" constant="-1" id="101574"/>
+                                    <constraint firstAttribute="trailing" secondItem="wkV-nh-fhs" secondAttribute="trailing" id="4oq-SO-ZQU"/>
+                                    <constraint firstItem="wkV-nh-fhs" firstAttribute="leading" secondItem="101299" secondAttribute="leading" id="9vw-Rf-t8D"/>
+                                    <constraint firstItem="wkV-nh-fhs" firstAttribute="top" secondItem="101299" secondAttribute="top" constant="-1" id="YSK-Bs-O3d"/>
+                                    <constraint firstAttribute="centerX" secondItem="101566" secondAttribute="centerX" constant="-0.5" id="tIT-Y7-5zQ"/>
+                                </constraints>
+                            </customView>
+                            <customView id="100039" customClass="LynEditorView">
+                                <rect key="frame" x="201" y="0.0" width="598" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="101232"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="101171" id="101298"/>
+                                    <outlet property="document" destination="-2" id="100991"/>
+                                    <outlet property="inspectorView" destination="100833" id="100992"/>
+                                    <outlet property="nextKeyView" destination="100833" id="101291"/>
+                                </connections>
+                            </customView>
+                            <splitView dividerStyle="thin" id="100856">
+                                <rect key="frame" x="800" y="0.0" width="200" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <customView id="100833" customClass="LynInspectorView">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="299"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="101234"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="delegate" destination="101171" id="101296"/>
+                                            <outlet property="document" destination="-2" id="101279"/>
+                                            <outlet property="nextKeyView" destination="100858" id="101292"/>
+                                        </connections>
+                                    </customView>
+                                    <customView id="101752" customClass="LynLibraryView">
+                                        <rect key="frame" x="0.0" y="300" width="200" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="101753"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="document" destination="-2" id="wze-pe-LVG"/>
+                                        </connections>
+                                    </customView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="101231"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="101278"/>
+                                </constraints>
+                                <holdingPriorities>
+                                    <real value="250"/>
+                                    <real value="250"/>
+                                </holdingPriorities>
+                            </splitView>
+                        </subviews>
+                        <holdingPriorities>
+                            <real value="475"/>
+                            <real value="1"/>
+                            <real value="475"/>
+                        </holdingPriorities>
+                        <connections>
+                            <outlet property="delegate" destination="-2" id="101255"/>
+                        </connections>
+                    </splitView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="100030" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="101141"/>
+                    <constraint firstItem="100030" firstAttribute="bottom" secondItem="6" secondAttribute="bottom" id="101145"/>
+                    <constraint firstItem="100030" firstAttribute="top" secondItem="6" secondAttribute="top" id="101192"/>
+                    <constraint firstItem="100030" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="101242"/>
+                </constraints>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="BFD78B0F-79BA-417B-B47F-1FB6B5BC7BF7" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconOnly" sizeMode="small" id="101216">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="AE321287-8374-4BFB-ABE0-0E004CDDE8AA" label="Run" paletteLabel="Run" image="NSRightFacingTriangleTemplate" autovalidates="NO" id="101719">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="23" height="23"/>
+                        <size key="maxSize" width="23" height="23"/>
+                        <button key="view" id="101715">
+                            <rect key="frame" x="3" y="14" width="23" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSRightFacingTriangleTemplate" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="101716">
+                                <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="pushedRun:" target="101748" id="101750"/>
+                            </connections>
+                        </button>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="2CD47D23-DF46-4C41-9589-F1C00C3BD330" label="Show Navigator" paletteLabel="Show Navigator" image="NSPathTemplate" autovalidates="NO" id="101722">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="23" height="23"/>
+                        <size key="maxSize" width="23" height="23"/>
+                        <button key="view" id="101720">
+                            <rect key="frame" x="34" y="14" width="23" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSPathTemplate" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="101721">
+                                <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="toggleNavigationArea:" target="-2" id="101733"/>
+                            </connections>
+                        </button>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="DB9CF14E-8448-4D2E-BCA0-6AA28684A49C" label="Show Utilities" paletteLabel="Show Utilities" image="NSActionTemplate" autovalidates="NO" id="101725">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="23" height="23"/>
+                        <size key="maxSize" width="23" height="23"/>
+                        <button key="view" id="101726">
+                            <rect key="frame" x="28" y="14" width="23" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSActionTemplate" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="101727">
+                                <behavior key="behavior" pushIn="YES" changeContents="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="toggleUtilitiesArea:" target="-2" id="101734"/>
+                            </connections>
+                        </button>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="101217"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="101220"/>
+                    <toolbarItem implicitItemIdentifier="7557A28F-0C2E-4BE8-80C8-AAF1A20CAA0A" label="Status" paletteLabel="Status" tag="-1" id="101743">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="320" height="23"/>
+                        <size key="maxSize" width="326" height="23"/>
+                        <box key="view" autoresizesSubviews="NO" borderWidth="0.0" title="Box" boxType="custom" borderType="line" titlePosition="noTitle" id="101742" customClass="StatusView">
+                            <rect key="frame" x="0.0" y="14" width="320" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <view key="contentView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="23"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                            <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                            <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </box>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="101719"/>
+                    <toolbarItem reference="101220"/>
+                    <toolbarItem reference="101217"/>
+                    <toolbarItem reference="101743"/>
+                    <toolbarItem reference="101220"/>
+                    <toolbarItem reference="101722"/>
+                    <toolbarItem reference="101725"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <binding destination="-2" name="title" keyPath="self" id="100209"/>
+                <outlet property="delegate" destination="-2" id="17"/>
+                <outlet property="initialFirstResponder" destination="100833" id="101294"/>
+            </connections>
+        </window>
+        <customObject id="-3" userLabel="Application"/>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+        <image name="NSCaution" width="32" height="32"/>
+        <image name="NSFolder" width="32" height="32"/>
+        <image name="NSPathTemplate" width="13" height="10"/>
+        <image name="NSRightFacingTriangleTemplate" width="9" height="9"/>
+    </resources>
+</document>

@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'Lyn' target in the 'Lyn' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <ScriptingBridge/ScriptingBridge.h>
+    #import <Lyn Framework/Lyn Framework.h>
+    #import <Lyn Kit/Lyn Kit.h>
+#endif

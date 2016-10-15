@@ -1,0 +1,57 @@
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude">
+    
+    <xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+    
+    <suite name="LynRunner Suite" code="LRnr" description="LynRunner specific Scripting Facilities">
+                
+        <command name="start" code="LRnrstrt" description="Start">
+            <direct-parameter type="document"/>
+        </command>
+        <command name="stop" code="LRnrstop" description="Stop">
+            <direct-parameter type="document"/>
+        </command>
+        <command name="reload" code="LRnrrlod" description="Reload">
+            <direct-parameter type="document"/>
+        </command>
+        
+        <class-extension name="lynrunnerapp" code="capp" description="LynRunner Application" inherits="application" extends="application">
+            <cocoa class="NSApplication"/>
+			<element type="document">
+				<cocoa key="orderedDocuments"/>
+			</element>
+            
+        </class-extension>
+        
+        <class-extension name="lynrunnerdoc" code="docu" description="LynRunner Document" inherits="document" extends="document">
+            <cocoa class="LynRunnerDocument"/>
+            
+            <property name="runner" code="rnnr" type="runner" access="r" description="The executing runner.">
+                <cocoa key="runner"/>
+            </property>
+            
+            <property name="project" code="proj" access="r" description="The executed Project.">
+                <type type="project"/>
+                <cocoa key="project"/>
+            </property>
+            
+			<responds-to name="start">
+                <cocoa method="handleStart:"/>
+            </responds-to>
+            
+			<responds-to name="stop">
+                <cocoa method="handleStop:"/>
+            </responds-to>
+            
+			<responds-to name="reload">
+                <cocoa method="handleReload:"/>
+            </responds-to>
+            
+        </class-extension>
+
+        <class name="runner" code="rnnr" description="LynRunner">
+            <cocoa class="LynRunnerScriptable"/>
+        </class>
+        
+    </suite>
+    
+</dictionary>

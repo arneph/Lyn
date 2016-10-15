@@ -1,0 +1,115 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10920\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs36 \cf0 Existing Bugs:\
+\
+Solved Bugs (with Solution):\
+\
+In the conditions view the 
+\b NSPopUpButton for Combining Conditions
+\b0  was 
+\b disabled
+\b0 . It 
+\b autoenabled its items
+\b0 .\
+\
+When removing conditioned commands (if...) or commands with a return value (scan...) their
+\b  parameters didn't dereference
+\b0  their 
+\b variables
+\b0 . The reason was, that the commands that owned the parameters 
+\b didn't set the parameter owner when
+\b0  their 
+\b parent changed
+\b0 .\
+\
+When 
+\b deleting a command
+\b0 , the 
+\b Inspector View didn't update
+\b0 . The ClassOutlineController 
+\b didn't update
+\b0  the inspector view, when 
+\b selectionDidChange to no selected row
+\b0 .\
+\
+When often changing the state of 
+\b 'Show Details'
+\b0  in the 
+\b Library View
+\b0  memory just rose, and performance suffered. The problem was that 
+\b LynCommands
+\b0  was 
+\b creating new instances
+\b0  of every command, whenever the 
+\b TableView Delegate requested
+\b0  something.\
+\
+In the Runner the 
+\b TextView always scrolled down
+\b0  when new text was appended. The first problem was, that the ScrollView 
+\b Outlet wasn't connected
+\b0 , the second was solved by 
+\b correctly asking
+\b0 , wether the 
+\b ScrollView is fully scrolled down
+\b0 , and only then scroll down.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1169\fi-1170\pardirnatural
+
+\b \cf0 Variable Definition View:
+\b0  It was hard to select Text in a field. The reason was that 
+\i\b every time, a text field was selected a reloadData: was forced
+\i0\b0  on the table view.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\fi-1\pardirnatural
+
+\b \cf0 LynWarningsView / Status View
+\b0  didn't update properly, because 
+\b LynFunction
+\b0  was 
+\b overriding prepareForNotifications
+\b0 , and thus 
+\b didn't pass up
+\b0  Warnings/Errors Changed 
+\b Notifications
+\b0 .\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1117\fi-1118\pardirnatural
+\cf0 \
+\pard\tx566\tqr\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 The 
+\b progress indicator in Lyn Runner
+\b0  (App) 
+\b didn't stop sometime
+\b0 s after the program has finished. It had been restarted after a sound completed. This has also been fixed for Open Dialogs.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\b \cf0 Parameters
+\b0  in the 
+\b Define Parameters View
+\b0 , were 
+\b only shown when another parameter
+\b0  is 
+\b added
+\b0 . This was due to a missing reload call when -setFunction: was called.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\b \cf0 In some Tableviews in the Inspector (Define Parameters...) 
+\b0 it is hard to select a text field. Solution: NSTableView subclass - validateProposedFirstResponder: (see LynDefineScopeView HelperClasses)\
+\
+\pard\tx560\tx1120\tx1304\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\b \cf0 Class wasn't found
+\b0 : The 
+\b @implementation was missing
+\b0 , also make sure the 
+\b files are in the correct folder
+\b0 , and part of the 
+\b correct target
+\b0 .}

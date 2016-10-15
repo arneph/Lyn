@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'LynRunner' target in the 'LynRunner' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <ScriptingBridge/ScriptingBridge.h>
+    #import <Lyn Framework/Lyn Framework.h>
+#endif

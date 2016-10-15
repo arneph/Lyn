@@ -1,0 +1,2391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7AA02C46174785DE00CB80D3 /* Everything */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7AA02C49174785DE00CB80D3 /* Build configuration list for PBXAggregateTarget "Everything" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7AA02C4B174785F300CB80D3 /* PBXTargetDependency */,
+				7A48EAB417AF9C5A00A015E5 /* PBXTargetDependency */,
+				7AA02C4D174785F300CB80D3 /* PBXTargetDependency */,
+				7AA02C4F174785F300CB80D3 /* PBXTargetDependency */,
+				7A87DF7F17FF0EFB0098A6F0 /* PBXTargetDependency */,
+			);
+			name = Everything;
+			productName = Everything;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7A0115F017BFEFB200A899CB /* LynLibraryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0115EE17BFEFB200A899CB /* LynLibraryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0115F117BFEFB200A899CB /* LynLibraryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0115EF17BFEFB200A899CB /* LynLibraryView.m */; };
+		7A0115F317BFEFD600A899CB /* LynLibraryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0115F217BFEFD600A899CB /* LynLibraryView.xib */; };
+		7A0115F617BFF44C00A899CB /* LynCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0115F417BFF44B00A899CB /* LynCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0115F717BFF44C00A899CB /* LynCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0115F517BFF44C00A899CB /* LynCommands.m */; };
+		7A01773E18126D6C00DE1983 /* LynRunnerConsoleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A01773C18126D6C00DE1983 /* LynRunnerConsoleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A01773F18126D6C00DE1983 /* LynRunnerConsoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A01773D18126D6C00DE1983 /* LynRunnerConsoleView.m */; };
+		7A01774118126DF900DE1983 /* LynRunnerConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A01774018126DF900DE1983 /* LynRunnerConsoleView.xib */; };
+		7A0177421812799700DE1983 /* Lyn Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A07F80D17AF91310002AD16 /* Lyn Kit.framework */; };
+		7A04C18218001C7500E76BCA /* LynComparingCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A04C18018001C7500E76BCA /* LynComparingCondition.h */; };
+		7A04C18318001C7500E76BCA /* LynComparingCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04C18118001C7500E76BCA /* LynComparingCondition.m */; };
+		7A04C18D1800297C00E76BCA /* LynCommandIf.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A04C18B1800297C00E76BCA /* LynCommandIf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A04C18E1800297C00E76BCA /* LynCommandIf.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04C18C1800297C00E76BCA /* LynCommandIf.m */; };
+		7A0627EC1808910200F709A1 /* LynConditionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0627E71808910200F709A1 /* LynConditionsView.xib */; };
+		7A0627ED1808910200F709A1 /* LynConditionsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0627E81808910200F709A1 /* LynConditionsViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A0627EE1808910200F709A1 /* LynConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0627E91808910200F709A1 /* LynConditionsViewController.m */; };
+		7A0627FB1808918700F709A1 /* LynClassRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0627F91808918700F709A1 /* LynClassRowView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A0627FC1808918700F709A1 /* LynClassRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0627FA1808918700F709A1 /* LynClassRowView.m */; };
+		7A0627FF180891C900F709A1 /* LynFillParametersViewHelperClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0627FD180891C900F709A1 /* LynFillParametersViewHelperClasses.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A062800180891C900F709A1 /* LynFillParametersViewHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0627FE180891C900F709A1 /* LynFillParametersViewHelperClasses.m */; };
+		7A062803180892CA00F709A1 /* LynDefineParametersViewHelperClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A062801180892CA00F709A1 /* LynDefineParametersViewHelperClasses.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A062804180892CA00F709A1 /* LynDefineParametersViewHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A062802180892CA00F709A1 /* LynDefineParametersViewHelperClasses.m */; };
+		7A07F80217AF887C0002AD16 /* LynParameterBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A07F80017AF887C0002AD16 /* LynParameterBoolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A07F80317AF887C0002AD16 /* LynParameterBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A07F80117AF887C0002AD16 /* LynParameterBoolean.m */; };
+		7A07F80E17AF91310002AD16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E83DD172C724C00DBF507 /* Cocoa.framework */; };
+		7A07F81417AF91320002AD16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A07F81217AF91320002AD16 /* InfoPlist.strings */; };
+		7A07F81F17AF918D0002AD16 /* Lyn Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A07F81E17AF918D0002AD16 /* Lyn Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A17B1D31825166C00ED1C0F /* LynCommandWhileLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A17B1D11825166C00ED1C0F /* LynCommandWhileLoop.h */; };
+		7A17B1D41825166C00ED1C0F /* LynCommandWhileLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A17B1D21825166C00ED1C0F /* LynCommandWhileLoop.m */; };
+		7A1B3E4F17B820AD00DAE180 /* LynRunner.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 7A1B3E4D17B81B0F00DAE180 /* LynRunner.sdef */; };
+		7A1B3E5217B8210100DAE180 /* LynRunnerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B3E5117B8210100DAE180 /* LynRunnerDelegate.m */; };
+		7A1B3E5417B8297B00DAE180 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1B3E5317B8297B00DAE180 /* ScriptingBridge.framework */; };
+		7A1B3E5617B82C2B00DAE180 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1B3E5517B82C2B00DAE180 /* CoreServices.framework */; };
+		7A1B3E5E17B83A0400DAE180 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1B3E5317B8297B00DAE180 /* ScriptingBridge.framework */; };
+		7A1B3E6A17B9335A00DAE180 /* DebugController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B3E6917B9335A00DAE180 /* DebugController.m */; };
+		7A1B3E6C17B9537D00DAE180 /* LynRunnerDebugDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1B3E6B17B9537D00DAE180 /* LynRunnerDebugDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A32AC66172D1C23006ACC4B /* LynCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A32AC64172D1C23006ACC4B /* LynCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A32AC67172D1C23006ACC4B /* LynCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AC65172D1C23006ACC4B /* LynCommand.m */; };
+		7A32AC6A172D1F32006ACC4B /* LynCommandWriteString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A32AC68172D1F32006ACC4B /* LynCommandWriteString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A32AC6B172D1F32006ACC4B /* LynCommandWriteString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AC69172D1F32006ACC4B /* LynCommandWriteString.m */; };
+		7A32AC70172D22E1006ACC4B /* LynRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A32AC6E172D22E1006ACC4B /* LynRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A32AC71172D22E1006ACC4B /* LynRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AC6F172D22E1006ACC4B /* LynRunner.m */; };
+		7A32AC74172D24EA006ACC4B /* LynCodeObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A32AC73172D24E5006ACC4B /* LynCodeObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A32AC7A172D268C006ACC4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E83DD172C724C00DBF507 /* Cocoa.framework */; };
+		7A32AC80172D268D006ACC4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AC7E172D268D006ACC4B /* InfoPlist.strings */; };
+		7A32AC82172D268D006ACC4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AC81172D268D006ACC4B /* main.m */; };
+		7A32AC86172D268D006ACC4B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AC84172D268D006ACC4B /* Credits.rtf */; };
+		7A32AC8F172D268D006ACC4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AC8D172D268D006ACC4B /* MainMenu.xib */; };
+		7A32AC96172D26E4006ACC4B /* LynRunnerDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AC94172D26E4006ACC4B /* LynRunnerDocument.m */; };
+		7A32AC97172D26E4006ACC4B /* LynRunner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AC95172D26E4006ACC4B /* LynRunner.xib */; };
+		7A32AC98172D2A93006ACC4B /* Lyn Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E8407172C72E000DBF507 /* Lyn Framework.framework */; };
+		7A3DF10118084AB1001646F3 /* LynScopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3DF10018084AB1001646F3 /* LynScopeTests.m */; };
+		7A43475918088AB3008F651D /* LynDefineParametersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A43475218088AB3008F651D /* LynDefineParametersView.xib */; };
+		7A43475A18088AB3008F651D /* LynDefineParametersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A43475318088AB3008F651D /* LynDefineParametersViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A43475B18088AB3008F651D /* LynDefineParametersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A43475418088AB3008F651D /* LynDefineParametersViewController.m */; };
+		7A43475E18088AB3008F651D /* LynDefineScopeViewHelperClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A43475718088AB3008F651D /* LynDefineScopeViewHelperClasses.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A43475F18088AB3008F651D /* LynDefineScopeViewHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A43475818088AB3008F651D /* LynDefineScopeViewHelperClasses.m */; };
+		7A444E4F182E42E3005CAD1E /* LynCommandForLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A444E4D182E42E3005CAD1E /* LynCommandForLoop.h */; };
+		7A444E50182E42E3005CAD1E /* LynCommandForLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A444E4E182E42E3005CAD1E /* LynCommandForLoop.m */; };
+		7A444E53182EE42A005CAD1E /* LynCommandWriteInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A444E51182EE42A005CAD1E /* LynCommandWriteInteger.h */; };
+		7A444E54182EE42A005CAD1E /* LynCommandWriteInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A444E52182EE42A005CAD1E /* LynCommandWriteInteger.m */; };
+		7A444E9A182FCAA7005CAD1E /* LynCommandScanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A444E98182FCAA7005CAD1E /* LynCommandScanString.h */; };
+		7A444E9B182FCAA7005CAD1E /* LynCommandScanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A444E99182FCAA7005CAD1E /* LynCommandScanString.m */; };
+		7A444EA0182FD6FB005CAD1E /* LynUseReturnValueViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A444E9D182FD6FB005CAD1E /* LynUseReturnValueViewController.h */; };
+		7A444EA1182FD6FB005CAD1E /* LynUseReturnValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A444E9E182FD6FB005CAD1E /* LynUseReturnValueViewController.m */; };
+		7A444EA2182FD6FB005CAD1E /* LynUseReturnValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A444E9F182FD6FB005CAD1E /* LynUseReturnValueView.xib */; };
+		7A48EAAB17AF969D00A015E5 /* LynWarningsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A48EAA817AF969D00A015E5 /* LynWarningsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A48EAAC17AF969D00A015E5 /* LynWarningsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A48EAA917AF969D00A015E5 /* LynWarningsView.m */; };
+		7A48EAAD17AF969D00A015E5 /* LynWarningsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A48EAAA17AF969D00A015E5 /* LynWarningsView.xib */; };
+		7A48EAB517AF9FA600A015E5 /* Lyn Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E8407172C72E000DBF507 /* Lyn Framework.framework */; };
+		7A48EAB617AF9FCD00A015E5 /* Lyn Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E8407172C72E000DBF507 /* Lyn Framework.framework */; };
+		7A49793D1821A77B00E98A2C /* LynComparingConditionInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A49793B1821A77B00E98A2C /* LynComparingConditionInteger.h */; };
+		7A49793E1821A77B00E98A2C /* LynComparingConditionInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A49793C1821A77B00E98A2C /* LynComparingConditionInteger.m */; };
+		7A4979411821A89800E98A2C /* LynComparingConditionString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A49793F1821A89700E98A2C /* LynComparingConditionString.h */; };
+		7A4979421821A89800E98A2C /* LynComparingConditionString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4979401821A89800E98A2C /* LynComparingConditionString.m */; };
+		7A4E83DE172C724C00DBF507 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E83DD172C724C00DBF507 /* Cocoa.framework */; };
+		7A4E83E8172C724D00DBF507 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E83E6172C724D00DBF507 /* InfoPlist.strings */; };
+		7A4E83EA172C724D00DBF507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E83E9172C724D00DBF507 /* main.m */; };
+		7A4E83EE172C724D00DBF507 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E83EC172C724D00DBF507 /* Credits.rtf */; };
+		7A4E83F7172C724D00DBF507 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E83F5172C724D00DBF507 /* MainMenu.xib */; };
+		7A4E8400172C72A000DBF507 /* LynDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E83FE172C72A000DBF507 /* LynDocument.m */; };
+		7A4E840E172C72E000DBF507 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E840C172C72E000DBF507 /* InfoPlist.strings */; };
+		7A4E8418172C73D700DBF507 /* Lyn Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4E8417172C73D700DBF507 /* Lyn Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4E841B172C752900DBF507 /* LynOutlineObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4E8419172C752900DBF507 /* LynOutlineObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4E841C172C752900DBF507 /* LynOutlineObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E841A172C752900DBF507 /* LynOutlineObject.m */; };
+		7A4FB68A17F5B8090043425D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A63313217EC60E50005C78F /* XCTest.framework */; };
+		7A4FB69017F5B8090043425D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4FB68E17F5B8090043425D /* InfoPlist.strings */; };
+		7A4FB69917F5B8190043425D /* LynVariableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FB66817F5B2A90043425D /* LynVariableTests.m */; };
+		7A4FB69B17F5B9E40043425D /* Lyn Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E8407172C72E000DBF507 /* Lyn Framework.framework */; };
+		7A4FB6A017F619940043425D /* LynCommandPlaySound.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FB69E17F619940043425D /* LynCommandPlaySound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4FB6A117F619940043425D /* LynCommandPlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FB69F17F619940043425D /* LynCommandPlaySound.m */; };
+		7A4FB6A417F6CE1E0043425D /* LynComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FB6A217F6CE1E0043425D /* LynComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4FB6A517F6CE1E0043425D /* LynComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FB6A317F6CE1E0043425D /* LynComment.m */; };
+		7A4FB6B717F877F70043425D /* LynProjectSettingsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FB6B517F877F70043425D /* LynProjectSettingsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4FB6B817F877F70043425D /* LynProjectSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FB6B617F877F70043425D /* LynProjectSettingsManager.m */; };
+		7A4FBD34181415650038DEAE /* LynComparingConditionBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4FBD32181415650038DEAE /* LynComparingConditionBoolean.h */; };
+		7A4FBD35181415650038DEAE /* LynComparingConditionBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4FBD33181415650038DEAE /* LynComparingConditionBoolean.m */; };
+		7A5033C21732F6D1000D6550 /* Class.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5033C01732F6D1000D6550 /* Class.png */; };
+		7A5033C31732F6D1000D6550 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5033C11732F6D1000D6550 /* Folder.png */; };
+		7A5033C61732F8FE000D6550 /* Class 16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5033C41732F8FE000D6550 /* Class 16x16.png */; };
+		7A5033C71732F8FE000D6550 /* Folder 16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5033C51732F8FE000D6550 /* Folder 16x16.png */; };
+		7A54F9A917AF93D600DE3B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E83E2172C724C00DBF507 /* Foundation.framework */; };
+		7A54F9AF17AF942000DE3B3E /* LynProjectOutlineController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9AA17AF942000DE3B3E /* LynProjectOutlineController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A54F9B017AF942000DE3B3E /* LynProjectOutlineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9AB17AF942000DE3B3E /* LynProjectOutlineController.m */; };
+		7A54F9B117AF942000DE3B3E /* LynVariableChooserView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9AC17AF942000DE3B3E /* LynVariableChooserView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A54F9B217AF942000DE3B3E /* LynVariableChooserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9AD17AF942000DE3B3E /* LynVariableChooserView.m */; };
+		7A54F9B317AF942000DE3B3E /* LynVariableChooserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9AE17AF942000DE3B3E /* LynVariableChooserView.xib */; };
+		7A54F9B917AF949700DE3B3E /* LynOutlineController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9B417AF949700DE3B3E /* LynOutlineController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A54F9BA17AF949700DE3B3E /* LynOutlineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9B517AF949700DE3B3E /* LynOutlineController.m */; };
+		7A54F9BB17AF949700DE3B3E /* LynProjectOutlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9B617AF949700DE3B3E /* LynProjectOutlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A54F9BC17AF949700DE3B3E /* LynProjectOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9B717AF949700DE3B3E /* LynProjectOutlineView.m */; };
+		7A54F9BD17AF949700DE3B3E /* LynProjectOutlineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9B817AF949700DE3B3E /* LynProjectOutlineView.xib */; };
+		7A54F9C117AF94D800DE3B3E /* LynEditorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9BE17AF94D800DE3B3E /* LynEditorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A54F9C217AF94D800DE3B3E /* LynEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9BF17AF94D800DE3B3E /* LynEditorView.m */; };
+		7A54F9C317AF94D800DE3B3E /* LynEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9C017AF94D800DE3B3E /* LynEditorView.xib */; };
+		7A54F9C717AF950100DE3B3E /* LynProjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9C417AF950100DE3B3E /* LynProjectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A54F9C817AF950100DE3B3E /* LynProjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9C517AF950100DE3B3E /* LynProjectView.m */; };
+		7A54F9C917AF950100DE3B3E /* LynProjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9C617AF950100DE3B3E /* LynProjectView.xib */; };
+		7A54F9D117AF952600DE3B3E /* LynClassOutlineController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9CA17AF952600DE3B3E /* LynClassOutlineController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A54F9D217AF952600DE3B3E /* LynClassOutlineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9CB17AF952600DE3B3E /* LynClassOutlineController.m */; };
+		7A54F9D317AF952600DE3B3E /* LynClassView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9CC17AF952600DE3B3E /* LynClassView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A54F9D417AF952600DE3B3E /* LynClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9CD17AF952600DE3B3E /* LynClassView.m */; };
+		7A54F9D517AF952600DE3B3E /* LynClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9CE17AF952600DE3B3E /* LynClassView.xib */; };
+		7A54F9D917AF955800DE3B3E /* LynUtilityViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9D817AF955800DE3B3E /* LynUtilityViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A54F9F317AF95B700DE3B3E /* LynDefineScopeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9DA17AF95B700DE3B3E /* LynDefineScopeView.xib */; };
+		7A54F9F417AF95B700DE3B3E /* LynDefineScopeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9DB17AF95B700DE3B3E /* LynDefineScopeViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A54F9F517AF95B700DE3B3E /* LynDefineScopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9DC17AF95B700DE3B3E /* LynDefineScopeViewController.m */; };
+		7A54FA0417AF95B700DE3B3E /* LynFillParametersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9EB17AF95B700DE3B3E /* LynFillParametersView.xib */; };
+		7A54FA0517AF95B700DE3B3E /* LynFillParametersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9EC17AF95B700DE3B3E /* LynFillParametersViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A54FA0617AF95B700DE3B3E /* LynFillParametersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9ED17AF95B700DE3B3E /* LynFillParametersViewController.m */; };
+		7A54FA0917AF95B700DE3B3E /* LynInspectorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A54F9F017AF95B700DE3B3E /* LynInspectorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A54FA0A17AF95B700DE3B3E /* LynInspectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A54F9F117AF95B700DE3B3E /* LynInspectorView.m */; };
+		7A54FA0B17AF95B700DE3B3E /* LynInspectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A54F9F217AF95B700DE3B3E /* LynInspectorView.xib */; };
+		7A60B3F7178C915200F99B22 /* LynWarning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A60B3F5178C915200F99B22 /* LynWarning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A60B3F8178C915200F99B22 /* LynWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60B3F6178C915200F99B22 /* LynWarning.m */; };
+		7A60B3FB178C923E00F99B22 /* LynError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A60B3F9178C923E00F99B22 /* LynError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A60B3FC178C923E00F99B22 /* LynError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60B3FA178C923E00F99B22 /* LynError.m */; };
+		7A6DD0F518521ACA004DECC6 /* LynCommandPostNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6DD0F318521ACA004DECC6 /* LynCommandPostNotification.h */; };
+		7A6DD0F618521ACA004DECC6 /* LynCommandPostNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD0F418521ACA004DECC6 /* LynCommandPostNotification.m */; };
+		7A71617617C26AF0000E3CE5 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A71617417C26AF0000E3CE5 /* PreferencesController.m */; };
+		7A71617717C26AF0000E3CE5 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A71617517C26AF0000E3CE5 /* Preferences.xib */; };
+		7A71617A17C3C55E000E3CE5 /* LynGeneral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A71617817C3C55A000E3CE5 /* LynGeneral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A71617B17C3C55E000E3CE5 /* LynGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A71617917C3C55C000E3CE5 /* LynGeneral.m */; };
+		7A71617E17C3E8CD000E3CE5 /* LynDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A71617D17C3E8CD000E3CE5 /* LynDelegate.m */; };
+		7A87DF8017FF0FDD0098A6F0 /* Lyn Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E8407172C72E000DBF507 /* Lyn Framework.framework */; };
+		7A87DF881800094D0098A6F0 /* LynCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A87DF861800094D0098A6F0 /* LynCondition.h */; };
+		7A87DF891800094D0098A6F0 /* LynCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87DF871800094D0098A6F0 /* LynCondition.m */; };
+		7A87DF8C18000E010098A6F0 /* LynCombiningCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A87DF8A18000E010098A6F0 /* LynCombiningCondition.h */; };
+		7A87DF8D18000E010098A6F0 /* LynCombiningCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A87DF8B18000E010098A6F0 /* LynCombiningCondition.m */; };
+		7AA859DC17EF10B600D323D4 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA859DB17EF10B600D323D4 /* Icons.xcassets */; };
+		7AA859E117EF17F000D323D4 /* LynDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E83FF172C72A000DBF507 /* LynDocument.xib */; };
+		7AAB03A417B17649009AA6F4 /* LynCommandOpenFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAB03A217B17649009AA6F4 /* LynCommandOpenFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAB03A517B17649009AA6F4 /* LynCommandOpenFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB03A317B17649009AA6F4 /* LynCommandOpenFile.m */; };
+		7AAB03A917B17B04009AA6F4 /* LynCommandOpenFileWithApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAB03A717B17B04009AA6F4 /* LynCommandOpenFileWithApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAB03AA17B17B04009AA6F4 /* LynCommandOpenFileWithApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB03A817B17B04009AA6F4 /* LynCommandOpenFileWithApplication.m */; };
+		7AAC4E37181E5B6500198B9B /* LynConditionsViewHelperClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAC4E35181E5B6500198B9B /* LynConditionsViewHelperClasses.h */; };
+		7AAC4E38181E5B6500198B9B /* LynConditionsViewHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAC4E36181E5B6500198B9B /* LynConditionsViewHelperClasses.m */; };
+		7AAC4E3A181E5DB900198B9B /* Lyn Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A07F80D17AF91310002AD16 /* Lyn Kit.framework */; };
+		7AAC6723176B5E7900296915 /* LynExecutionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAC6721176B5E7900296915 /* LynExecutionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAC6724176B5E7900296915 /* LynExecutableObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAC6722176B5E7900296915 /* LynExecutableObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAC672A176C64BB00296915 /* LynCommandWaitOneSecond.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAC6728176C64BB00296915 /* LynCommandWaitOneSecond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAC672B176C64BB00296915 /* LynCommandWaitOneSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAC6729176C64BB00296915 /* LynCommandWaitOneSecond.m */; };
+		7AAF7330172D5AFA0022B49C /* LynProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAF732E172D5AFA0022B49C /* LynProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAF7331172D5AFA0022B49C /* LynProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF732F172D5AFA0022B49C /* LynProject.m */; };
+		7AAF7334172D5C050022B49C /* LynFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAF7332172D5C050022B49C /* LynFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAF7335172D5C050022B49C /* LynFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF7333172D5C050022B49C /* LynFolder.m */; };
+		7AAF7338172D5D260022B49C /* LynProjectOutlineObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAF7336172D5D260022B49C /* LynProjectOutlineObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAF7339172D5D260022B49C /* LynProjectOutlineObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF7337172D5D260022B49C /* LynProjectOutlineObject.m */; };
+		7AAF733C172D5EB80022B49C /* LynClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAF733A172D5EB80022B49C /* LynClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAF733D172D5EB80022B49C /* LynClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF733B172D5EB80022B49C /* LynClass.m */; };
+		7AAF7340172D5F920022B49C /* LynFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAF733E172D5F920022B49C /* LynFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAF7341172D5F920022B49C /* LynFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAF733F172D5F920022B49C /* LynFunction.m */; };
+		7AB613F417FDC2D300F34D76 /* LynLibraryViewHelperClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB613F217FDC2D300F34D76 /* LynLibraryViewHelperClasses.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7AB613F517FDC2D300F34D76 /* LynLibraryViewHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB613F317FDC2D300F34D76 /* LynLibraryViewHelperClasses.m */; };
+		7AB613FC17FF0DCD00F34D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB613FB17FF0DCD00F34D76 /* Foundation.framework */; };
+		7AB613FF17FF0DCD00F34D76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB613FE17FF0DCD00F34D76 /* main.m */; };
+		7AB6140317FF0DCD00F34D76 /* LynRunnerUtility.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AB6140217FF0DCD00F34D76 /* LynRunnerUtility.1 */; };
+		7AB6140A17FF0E1600F34D76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E83DD172C724C00DBF507 /* Cocoa.framework */; };
+		7ADAA45C178717B700EC41D8 /* LynCommandCallFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2D9B8D1785D7F40080596D /* LynCommandCallFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA45D178717B900EC41D8 /* LynCommandCallFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D9B8E1785D7F40080596D /* LynCommandCallFunction.m */; };
+		7ADAA460178717FC00EC41D8 /* LynScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADAA45E178717FC00EC41D8 /* LynScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA461178717FC00EC41D8 /* LynScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAA45F178717FC00EC41D8 /* LynScope.m */; };
+		7ADAA466178719AE00EC41D8 /* LynVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADAA464178719AE00EC41D8 /* LynVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA467178719AE00EC41D8 /* LynVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAA465178719AE00EC41D8 /* LynVariable.m */; };
+		7ADAA46E178723A100EC41D8 /* LynVariableString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADAA46C178723A100EC41D8 /* LynVariableString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA46F178723A100EC41D8 /* LynVariableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAA46D178723A100EC41D8 /* LynVariableString.m */; };
+		7ADAA4771787259600EC41D8 /* LynNamedOutlineObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A973655173BBF9600E5B57F /* LynNamedOutlineObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA478178725EB00EC41D8 /* LynRunnerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A32AC72172D22F2006ACC4B /* LynRunnerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA4851789C3E700EC41D8 /* LynVariableInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADAA4831789C3E700EC41D8 /* LynVariableInteger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA4861789C3E700EC41D8 /* LynVariableInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAA4841789C3E700EC41D8 /* LynVariableInteger.m */; };
+		7ADAA4891789C4C300EC41D8 /* LynVariableBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADAA4871789C4C200EC41D8 /* LynVariableBoolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ADAA48A1789C4C300EC41D8 /* LynVariableBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAA4881789C4C300EC41D8 /* LynVariableBoolean.m */; };
+		7ADE9C32184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADE9C30184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.h */; };
+		7ADE9C33184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE9C31184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.m */; };
+		7ADE9C38184B5AA500D5C902 /* LynPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE9C36184B5AA500D5C902 /* LynPreferencesController.m */; };
+		7ADE9C39184B5AA500D5C902 /* LynPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE9C37184B5AA500D5C902 /* LynPreferencesWindow.xib */; };
+		7ADE9C3C184B722900D5C902 /* LynPreferencesHelperClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE9C3B184B722900D5C902 /* LynPreferencesHelperClasses.m */; };
+		7AE60AA31748FAA0002922DD /* LynParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE60AA11748FAA0002922DD /* LynParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE60AA41748FAA0002922DD /* LynParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE60AA21748FAA0002922DD /* LynParameter.m */; };
+		7AE60AAA1748FEE3002922DD /* LynParameterString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE60AA81748FEE3002922DD /* LynParameterString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE60AAB1748FEE3002922DD /* LynParameterString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE60AA91748FEE3002922DD /* LynParameterString.m */; };
+		7AE60AC417497300002922DD /* LynCommandWriteLineBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE60AC217497300002922DD /* LynCommandWriteLineBreak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE60AC517497300002922DD /* LynCommandWriteLineBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE60AC317497300002922DD /* LynCommandWriteLineBreak.m */; };
+		7AE69D9217B2582F00AF8BB2 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE69D9117B2582F00AF8BB2 /* StatusView.m */; };
+		7AED224E17A92ACA009028D6 /* Lyn AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224817A92ABA009028D6 /* Lyn AppIcon.png */; };
+		7AED224F17A92AD0009028D6 /* Lyn DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224917A92ABA009028D6 /* Lyn DocumentIcon.icns */; };
+		7AED225017A92AD0009028D6 /* Lyn DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224A17A92ABA009028D6 /* Lyn DocumentIcon.png */; };
+		7AED225117A92AD0009028D6 /* Lyn DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224917A92ABA009028D6 /* Lyn DocumentIcon.icns */; };
+		7AED225217A92AD0009028D6 /* Lyn DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224A17A92ABA009028D6 /* Lyn DocumentIcon.png */; };
+		7AED225417A92AD5009028D6 /* LynRunner AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224C17A92ABA009028D6 /* LynRunner AppIcon.png */; };
+		7AED225617A92AF7009028D6 /* Lyn AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7AED225517A92AF7009028D6 /* Lyn AppIcon.icns */; };
+		7AED225817A92B26009028D6 /* LynRunner AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7AED225717A92B26009028D6 /* LynRunner AppIcon.icns */; };
+		7AED225917A92D63009028D6 /* Lyn DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224917A92ABA009028D6 /* Lyn DocumentIcon.icns */; };
+		7AED225A17A92D63009028D6 /* Lyn DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224A17A92ABA009028D6 /* Lyn DocumentIcon.png */; };
+		7AEEEA8D17A98F9000BF817E /* LynParameterInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEEEA8B17A98F9000BF817E /* LynParameterInteger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEEEA8E17A98F9000BF817E /* LynParameterInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEEA8C17A98F9000BF817E /* LynParameterInteger.m */; };
+		7AEEEA9117A9922C00BF817E /* LynCommandWait.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEEEA8F17A9922C00BF817E /* LynCommandWait.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEEEA9217A9922C00BF817E /* LynCommandWait.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEEEA9017A9922C00BF817E /* LynCommandWait.m */; };
+		7AF0FF7F17AFB28E00DE46BE /* LynCommandOpenApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF0FF7D17AFB28E00DE46BE /* LynCommandOpenApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF0FF8017AFB28E00DE46BE /* LynCommandOpenApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0FF7E17AFB28E00DE46BE /* LynCommandOpenApplication.m */; };
+		7AF65C911841FD0B001319D3 /* Lyn DocumentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224A17A92ABA009028D6 /* Lyn DocumentIcon.png */; };
+		7AF65C921841FD0E001319D3 /* Lyn DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7AED224917A92ABA009028D6 /* Lyn DocumentIcon.icns */; };
+		7AF65C951842111E001319D3 /* LynCommandScanBoolean.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF65C931842111E001319D3 /* LynCommandScanBoolean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF65C961842111E001319D3 /* LynCommandScanBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF65C941842111E001319D3 /* LynCommandScanBoolean.m */; };
+		7AF65C991842141E001319D3 /* LynCommandScanInteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF65C971842141E001319D3 /* LynCommandScanInteger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF65C9A1842141E001319D3 /* LynCommandScanInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF65C981842141E001319D3 /* LynCommandScanInteger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		7AAC2F8017B23E0700C1C5A4 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.xcode.tools.ibtool.postprocessor;
+			fileType = file.xib;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynVariableChooserView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynProjectOutlineView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynEditorView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynProjectView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynClassView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynInspectorView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynDefineScopeView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Framework/LynDefineParametersView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynFillParametersView.xib\n/Users/Programmieren/Documents/Xcode Projekte/Lyn/Lyn Kit/LynWarningsView.xib";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		7A48EAB317AF9C5A00A015E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A07F80C17AF91310002AD16;
+			remoteInfo = "Lyn Kit";
+		};
+		7A4FB69417F5B8090043425D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E8406172C72E000DBF507;
+			remoteInfo = "Lyn Framework";
+		};
+		7A87DF7E17FF0EFB0098A6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB613F917FF0DCD00F34D76;
+			remoteInfo = LynRunnerUtility;
+		};
+		7AA02C4A174785F300CB80D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E8406172C72E000DBF507;
+			remoteInfo = "Lyn Framework";
+		};
+		7AA02C4C174785F300CB80D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E83D9172C724C00DBF507;
+			remoteInfo = Lyn;
+		};
+		7AA02C4E174785F300CB80D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A32AC78172D268C006ACC4B;
+			remoteInfo = LynRunner;
+		};
+		7AF65C9B18421924001319D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E8406172C72E000DBF507;
+			remoteInfo = "Lyn Framework";
+		};
+		7AF65C9D18421924001319D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A07F80C17AF91310002AD16;
+			remoteInfo = "Lyn Kit";
+		};
+		7AF65C9F1842192C001319D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E8406172C72E000DBF507;
+			remoteInfo = "Lyn Framework";
+		};
+		7AF65CA11842192C001319D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A07F80C17AF91310002AD16;
+			remoteInfo = "Lyn Kit";
+		};
+		7AF65CA318421937001319D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E8406172C72E000DBF507;
+			remoteInfo = "Lyn Framework";
+		};
+		7AFBC1E11820F4E1006067B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4E83D2172C724C00DBF507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4E8406172C72E000DBF507;
+			remoteInfo = "Lyn Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AB613F817FF0DCD00F34D76 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+				7AB6140317FF0DCD00F34D76 /* LynRunnerUtility.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A0115EE17BFEFB200A899CB /* LynLibraryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynLibraryView.h; sourceTree = "<group>"; };
+		7A0115EF17BFEFB200A899CB /* LynLibraryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynLibraryView.m; sourceTree = "<group>"; };
+		7A0115F217BFEFD600A899CB /* LynLibraryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LynLibraryView.xib; sourceTree = "<group>"; };
+		7A0115F417BFF44B00A899CB /* LynCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommands.h; sourceTree = "<group>"; };
+		7A0115F517BFF44C00A899CB /* LynCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommands.m; sourceTree = "<group>"; };
+		7A01773C18126D6C00DE1983 /* LynRunnerConsoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynRunnerConsoleView.h; sourceTree = "<group>"; };
+		7A01773D18126D6C00DE1983 /* LynRunnerConsoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynRunnerConsoleView.m; sourceTree = "<group>"; };
+		7A01774018126DF900DE1983 /* LynRunnerConsoleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LynRunnerConsoleView.xib; sourceTree = "<group>"; };
+		7A04C18018001C7500E76BCA /* LynComparingCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynComparingCondition.h; sourceTree = "<group>"; };
+		7A04C18118001C7500E76BCA /* LynComparingCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynComparingCondition.m; sourceTree = "<group>"; };
+		7A04C18B1800297C00E76BCA /* LynCommandIf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandIf.h; sourceTree = "<group>"; };
+		7A04C18C1800297C00E76BCA /* LynCommandIf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandIf.m; sourceTree = "<group>"; };
+		7A0627E71808910200F709A1 /* LynConditionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynConditionsView.xib; path = "Lyn Kit/LynConditionsView.xib"; sourceTree = SOURCE_ROOT; };
+		7A0627E81808910200F709A1 /* LynConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynConditionsViewController.h; path = "Lyn Kit/LynConditionsViewController.h"; sourceTree = SOURCE_ROOT; };
+		7A0627E91808910200F709A1 /* LynConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynConditionsViewController.m; path = "Lyn Kit/LynConditionsViewController.m"; sourceTree = SOURCE_ROOT; };
+		7A0627F91808918700F709A1 /* LynClassRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynClassRowView.h; path = "Lyn Kit/LynClassRowView.h"; sourceTree = SOURCE_ROOT; };
+		7A0627FA1808918700F709A1 /* LynClassRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynClassRowView.m; path = "Lyn Kit/LynClassRowView.m"; sourceTree = SOURCE_ROOT; };
+		7A0627FD180891C900F709A1 /* LynFillParametersViewHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynFillParametersViewHelperClasses.h; path = "Lyn Kit/LynFillParametersViewHelperClasses.h"; sourceTree = SOURCE_ROOT; };
+		7A0627FE180891C900F709A1 /* LynFillParametersViewHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynFillParametersViewHelperClasses.m; path = "Lyn Kit/LynFillParametersViewHelperClasses.m"; sourceTree = SOURCE_ROOT; };
+		7A062801180892CA00F709A1 /* LynDefineParametersViewHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynDefineParametersViewHelperClasses.h; path = "Lyn Kit/LynDefineParametersViewHelperClasses.h"; sourceTree = SOURCE_ROOT; };
+		7A062802180892CA00F709A1 /* LynDefineParametersViewHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynDefineParametersViewHelperClasses.m; path = "Lyn Kit/LynDefineParametersViewHelperClasses.m"; sourceTree = SOURCE_ROOT; };
+		7A07F80017AF887C0002AD16 /* LynParameterBoolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynParameterBoolean.h; sourceTree = "<group>"; };
+		7A07F80117AF887C0002AD16 /* LynParameterBoolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynParameterBoolean.m; sourceTree = "<group>"; };
+		7A07F80D17AF91310002AD16 /* Lyn Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Lyn Kit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A07F81117AF91320002AD16 /* Lyn Kit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyn Kit-Info.plist"; sourceTree = "<group>"; };
+		7A07F81317AF91320002AD16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A07F81517AF91320002AD16 /* Lyn Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyn Kit-Prefix.pch"; sourceTree = "<group>"; };
+		7A07F81E17AF918D0002AD16 /* Lyn Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lyn Kit.h"; sourceTree = "<group>"; };
+		7A17B1D11825166C00ED1C0F /* LynCommandWhileLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandWhileLoop.h; sourceTree = "<group>"; };
+		7A17B1D21825166C00ED1C0F /* LynCommandWhileLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandWhileLoop.m; sourceTree = "<group>"; };
+		7A1B3E4D17B81B0F00DAE180 /* LynRunner.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LynRunner.sdef; sourceTree = "<group>"; };
+		7A1B3E5017B8210100DAE180 /* LynRunnerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynRunnerDelegate.h; sourceTree = "<group>"; };
+		7A1B3E5117B8210100DAE180 /* LynRunnerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynRunnerDelegate.m; sourceTree = "<group>"; };
+		7A1B3E5317B8297B00DAE180 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		7A1B3E5517B82C2B00DAE180 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		7A1B3E6117B8E1BD00DAE180 /* LynRunner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LynRunner.entitlements; sourceTree = "<group>"; };
+		7A1B3E6717B8FE0700DAE180 /* LynRunnerScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynRunnerScript.h; sourceTree = "<group>"; };
+		7A1B3E6817B9335A00DAE180 /* DebugController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugController.h; sourceTree = "<group>"; };
+		7A1B3E6917B9335A00DAE180 /* DebugController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugController.m; sourceTree = "<group>"; };
+		7A1B3E6B17B9537D00DAE180 /* LynRunnerDebugDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynRunnerDebugDelegate.h; sourceTree = "<group>"; };
+		7A2D9B8D1785D7F40080596D /* LynCommandCallFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandCallFunction.h; sourceTree = "<group>"; };
+		7A2D9B8E1785D7F40080596D /* LynCommandCallFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandCallFunction.m; sourceTree = "<group>"; };
+		7A32AC64172D1C23006ACC4B /* LynCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommand.h; sourceTree = "<group>"; };
+		7A32AC65172D1C23006ACC4B /* LynCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommand.m; sourceTree = "<group>"; };
+		7A32AC68172D1F32006ACC4B /* LynCommandWriteString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandWriteString.h; sourceTree = "<group>"; };
+		7A32AC69172D1F32006ACC4B /* LynCommandWriteString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandWriteString.m; sourceTree = "<group>"; };
+		7A32AC6E172D22E1006ACC4B /* LynRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynRunner.h; sourceTree = "<group>"; };
+		7A32AC6F172D22E1006ACC4B /* LynRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynRunner.m; sourceTree = "<group>"; };
+		7A32AC72172D22F2006ACC4B /* LynRunnerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LynRunnerDelegate.h; sourceTree = "<group>"; };
+		7A32AC73172D24E5006ACC4B /* LynCodeObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LynCodeObjects.h; sourceTree = "<group>"; };
+		7A32AC79172D268C006ACC4B /* LynRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LynRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A32AC7D172D268D006ACC4B /* LynRunner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LynRunner-Info.plist"; sourceTree = "<group>"; };
+		7A32AC7F172D268D006ACC4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A32AC81172D268D006ACC4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A32AC83172D268D006ACC4B /* LynRunner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LynRunner-Prefix.pch"; sourceTree = "<group>"; };
+		7A32AC85172D268D006ACC4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7A32AC8E172D268D006ACC4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7A32AC93172D26E4006ACC4B /* LynRunnerDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynRunnerDocument.h; sourceTree = "<group>"; };
+		7A32AC94172D26E4006ACC4B /* LynRunnerDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynRunnerDocument.m; sourceTree = "<group>"; };
+		7A32AC95172D26E4006ACC4B /* LynRunner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LynRunner.xib; sourceTree = "<group>"; };
+		7A3DF10018084AB1001646F3 /* LynScopeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynScopeTests.m; sourceTree = "<group>"; };
+		7A43475218088AB3008F651D /* LynDefineParametersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynDefineParametersView.xib; path = "Lyn Kit/LynDefineParametersView.xib"; sourceTree = SOURCE_ROOT; };
+		7A43475318088AB3008F651D /* LynDefineParametersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynDefineParametersViewController.h; path = "Lyn Kit/LynDefineParametersViewController.h"; sourceTree = SOURCE_ROOT; };
+		7A43475418088AB3008F651D /* LynDefineParametersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynDefineParametersViewController.m; path = "Lyn Kit/LynDefineParametersViewController.m"; sourceTree = SOURCE_ROOT; };
+		7A43475718088AB3008F651D /* LynDefineScopeViewHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynDefineScopeViewHelperClasses.h; path = "Lyn Kit/LynDefineScopeViewHelperClasses.h"; sourceTree = SOURCE_ROOT; };
+		7A43475818088AB3008F651D /* LynDefineScopeViewHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynDefineScopeViewHelperClasses.m; path = "Lyn Kit/LynDefineScopeViewHelperClasses.m"; sourceTree = SOURCE_ROOT; };
+		7A444E4D182E42E3005CAD1E /* LynCommandForLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandForLoop.h; sourceTree = "<group>"; };
+		7A444E4E182E42E3005CAD1E /* LynCommandForLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandForLoop.m; sourceTree = "<group>"; };
+		7A444E51182EE42A005CAD1E /* LynCommandWriteInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandWriteInteger.h; sourceTree = "<group>"; };
+		7A444E52182EE42A005CAD1E /* LynCommandWriteInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandWriteInteger.m; sourceTree = "<group>"; };
+		7A444E98182FCAA7005CAD1E /* LynCommandScanString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandScanString.h; sourceTree = "<group>"; };
+		7A444E99182FCAA7005CAD1E /* LynCommandScanString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandScanString.m; sourceTree = "<group>"; };
+		7A444E9D182FD6FB005CAD1E /* LynUseReturnValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynUseReturnValueViewController.h; path = "Lyn Kit/LynUseReturnValueViewController.h"; sourceTree = SOURCE_ROOT; };
+		7A444E9E182FD6FB005CAD1E /* LynUseReturnValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynUseReturnValueViewController.m; path = "Lyn Kit/LynUseReturnValueViewController.m"; sourceTree = SOURCE_ROOT; };
+		7A444E9F182FD6FB005CAD1E /* LynUseReturnValueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynUseReturnValueView.xib; path = "Lyn Kit/LynUseReturnValueView.xib"; sourceTree = SOURCE_ROOT; };
+		7A48EAA817AF969D00A015E5 /* LynWarningsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynWarningsView.h; path = "Lyn Kit/LynWarningsView.h"; sourceTree = SOURCE_ROOT; };
+		7A48EAA917AF969D00A015E5 /* LynWarningsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynWarningsView.m; path = "Lyn Kit/LynWarningsView.m"; sourceTree = SOURCE_ROOT; };
+		7A48EAAA17AF969D00A015E5 /* LynWarningsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynWarningsView.xib; path = "Lyn Kit/LynWarningsView.xib"; sourceTree = SOURCE_ROOT; };
+		7A49793B1821A77B00E98A2C /* LynComparingConditionInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynComparingConditionInteger.h; sourceTree = "<group>"; };
+		7A49793C1821A77B00E98A2C /* LynComparingConditionInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynComparingConditionInteger.m; sourceTree = "<group>"; };
+		7A49793F1821A89700E98A2C /* LynComparingConditionString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynComparingConditionString.h; sourceTree = "<group>"; };
+		7A4979401821A89800E98A2C /* LynComparingConditionString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynComparingConditionString.m; sourceTree = "<group>"; };
+		7A4E83DA172C724C00DBF507 /* Lyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4E83DD172C724C00DBF507 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7A4E83E0172C724C00DBF507 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7A4E83E1172C724C00DBF507 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7A4E83E2172C724C00DBF507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A4E83E5172C724D00DBF507 /* Lyn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyn-Info.plist"; sourceTree = "<group>"; };
+		7A4E83E7172C724D00DBF507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A4E83E9172C724D00DBF507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A4E83EB172C724D00DBF507 /* Lyn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyn-Prefix.pch"; sourceTree = "<group>"; };
+		7A4E83ED172C724D00DBF507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7A4E83F6172C724D00DBF507 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7A4E83FD172C72A000DBF507 /* LynDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynDocument.h; sourceTree = "<group>"; };
+		7A4E83FE172C72A000DBF507 /* LynDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynDocument.m; sourceTree = "<group>"; };
+		7A4E83FF172C72A000DBF507 /* LynDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LynDocument.xib; sourceTree = "<group>"; };
+		7A4E8407172C72E000DBF507 /* Lyn Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Lyn Framework.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4E840B172C72E000DBF507 /* Lyn Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyn Framework-Info.plist"; sourceTree = "<group>"; };
+		7A4E840D172C72E000DBF507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A4E840F172C72E000DBF507 /* Lyn Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyn Framework-Prefix.pch"; sourceTree = "<group>"; };
+		7A4E8417172C73D700DBF507 /* Lyn Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lyn Framework.h"; sourceTree = "<group>"; };
+		7A4E8419172C752900DBF507 /* LynOutlineObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynOutlineObject.h; sourceTree = "<group>"; };
+		7A4E841A172C752900DBF507 /* LynOutlineObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynOutlineObject.m; sourceTree = "<group>"; };
+		7A4FB66817F5B2A90043425D /* LynVariableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynVariableTests.m; sourceTree = "<group>"; };
+		7A4FB68917F5B8090043425D /* Lyn Framework Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyn Framework Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4FB68D17F5B8090043425D /* Lyn Framework Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyn Framework Tests-Info.plist"; sourceTree = "<group>"; };
+		7A4FB68F17F5B8090043425D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A4FB69317F5B8090043425D /* Lyn Framework Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyn Framework Tests-Prefix.pch"; sourceTree = "<group>"; };
+		7A4FB69E17F619940043425D /* LynCommandPlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandPlaySound.h; sourceTree = "<group>"; };
+		7A4FB69F17F619940043425D /* LynCommandPlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandPlaySound.m; sourceTree = "<group>"; };
+		7A4FB6A217F6CE1E0043425D /* LynComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynComment.h; sourceTree = "<group>"; };
+		7A4FB6A317F6CE1E0043425D /* LynComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynComment.m; sourceTree = "<group>"; };
+		7A4FB6B517F877F70043425D /* LynProjectSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynProjectSettingsManager.h; sourceTree = "<group>"; };
+		7A4FB6B617F877F70043425D /* LynProjectSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynProjectSettingsManager.m; sourceTree = "<group>"; };
+		7A4FBD32181415650038DEAE /* LynComparingConditionBoolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynComparingConditionBoolean.h; sourceTree = "<group>"; };
+		7A4FBD33181415650038DEAE /* LynComparingConditionBoolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynComparingConditionBoolean.m; sourceTree = "<group>"; };
+		7A5033C01732F6D1000D6550 /* Class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Class.png; path = Graphics/Class.png; sourceTree = "<group>"; };
+		7A5033C11732F6D1000D6550 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Folder.png; path = Graphics/Folder.png; sourceTree = "<group>"; };
+		7A5033C41732F8FE000D6550 /* Class 16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Class 16x16.png"; path = "Graphics/Class 16x16.png"; sourceTree = "<group>"; };
+		7A5033C51732F8FE000D6550 /* Folder 16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Folder 16x16.png"; path = "Graphics/Folder 16x16.png"; sourceTree = "<group>"; };
+		7A54F9AA17AF942000DE3B3E /* LynProjectOutlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynProjectOutlineController.h; path = "../Lyn Kit/LynProjectOutlineController.h"; sourceTree = "<group>"; };
+		7A54F9AB17AF942000DE3B3E /* LynProjectOutlineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynProjectOutlineController.m; path = "../Lyn Kit/LynProjectOutlineController.m"; sourceTree = "<group>"; };
+		7A54F9AC17AF942000DE3B3E /* LynVariableChooserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynVariableChooserView.h; sourceTree = "<group>"; };
+		7A54F9AD17AF942000DE3B3E /* LynVariableChooserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynVariableChooserView.m; sourceTree = "<group>"; };
+		7A54F9AE17AF942000DE3B3E /* LynVariableChooserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LynVariableChooserView.xib; sourceTree = "<group>"; };
+		7A54F9B417AF949700DE3B3E /* LynOutlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynOutlineController.h; path = "Lyn Kit/LynOutlineController.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9B517AF949700DE3B3E /* LynOutlineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynOutlineController.m; path = "Lyn Kit/LynOutlineController.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9B617AF949700DE3B3E /* LynProjectOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynProjectOutlineView.h; path = "Lyn Kit/LynProjectOutlineView.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9B717AF949700DE3B3E /* LynProjectOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynProjectOutlineView.m; path = "Lyn Kit/LynProjectOutlineView.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9B817AF949700DE3B3E /* LynProjectOutlineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynProjectOutlineView.xib; path = "Lyn Kit/LynProjectOutlineView.xib"; sourceTree = SOURCE_ROOT; };
+		7A54F9BE17AF94D800DE3B3E /* LynEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynEditorView.h; path = "Lyn Kit/LynEditorView.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9BF17AF94D800DE3B3E /* LynEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynEditorView.m; path = "Lyn Kit/LynEditorView.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9C017AF94D800DE3B3E /* LynEditorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynEditorView.xib; path = "Lyn Kit/LynEditorView.xib"; sourceTree = SOURCE_ROOT; };
+		7A54F9C417AF950100DE3B3E /* LynProjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynProjectView.h; path = "Lyn Kit/LynProjectView.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9C517AF950100DE3B3E /* LynProjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynProjectView.m; path = "Lyn Kit/LynProjectView.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9C617AF950100DE3B3E /* LynProjectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynProjectView.xib; path = "Lyn Kit/LynProjectView.xib"; sourceTree = SOURCE_ROOT; };
+		7A54F9CA17AF952600DE3B3E /* LynClassOutlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynClassOutlineController.h; path = "Lyn Kit/LynClassOutlineController.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9CB17AF952600DE3B3E /* LynClassOutlineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynClassOutlineController.m; path = "Lyn Kit/LynClassOutlineController.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9CC17AF952600DE3B3E /* LynClassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynClassView.h; path = "Lyn Kit/LynClassView.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9CD17AF952600DE3B3E /* LynClassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynClassView.m; path = "Lyn Kit/LynClassView.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9CE17AF952600DE3B3E /* LynClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynClassView.xib; path = "Lyn Kit/LynClassView.xib"; sourceTree = SOURCE_ROOT; };
+		7A54F9D817AF955800DE3B3E /* LynUtilityViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynUtilityViewDelegate.h; sourceTree = "<group>"; };
+		7A54F9DA17AF95B700DE3B3E /* LynDefineScopeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynDefineScopeView.xib; path = "Lyn Kit/LynDefineScopeView.xib"; sourceTree = SOURCE_ROOT; };
+		7A54F9DB17AF95B700DE3B3E /* LynDefineScopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynDefineScopeViewController.h; path = "Lyn Kit/LynDefineScopeViewController.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9DC17AF95B700DE3B3E /* LynDefineScopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynDefineScopeViewController.m; path = "Lyn Kit/LynDefineScopeViewController.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9EB17AF95B700DE3B3E /* LynFillParametersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynFillParametersView.xib; path = "../Lyn Kit/LynFillParametersView.xib"; sourceTree = "<group>"; };
+		7A54F9EC17AF95B700DE3B3E /* LynFillParametersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynFillParametersViewController.h; path = "Lyn Kit/LynFillParametersViewController.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9ED17AF95B700DE3B3E /* LynFillParametersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynFillParametersViewController.m; path = "Lyn Kit/LynFillParametersViewController.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9F017AF95B700DE3B3E /* LynInspectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynInspectorView.h; path = "Lyn Kit/LynInspectorView.h"; sourceTree = SOURCE_ROOT; };
+		7A54F9F117AF95B700DE3B3E /* LynInspectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynInspectorView.m; path = "Lyn Kit/LynInspectorView.m"; sourceTree = SOURCE_ROOT; };
+		7A54F9F217AF95B700DE3B3E /* LynInspectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LynInspectorView.xib; path = "Lyn Kit/LynInspectorView.xib"; sourceTree = SOURCE_ROOT; };
+		7A60B3F5178C915200F99B22 /* LynWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynWarning.h; sourceTree = "<group>"; };
+		7A60B3F6178C915200F99B22 /* LynWarning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynWarning.m; sourceTree = "<group>"; };
+		7A60B3F9178C923E00F99B22 /* LynError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynError.h; sourceTree = "<group>"; };
+		7A60B3FA178C923E00F99B22 /* LynError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynError.m; sourceTree = "<group>"; };
+		7A63313217EC60E50005C78F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A6DD0F318521ACA004DECC6 /* LynCommandPostNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandPostNotification.h; sourceTree = "<group>"; };
+		7A6DD0F418521ACA004DECC6 /* LynCommandPostNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandPostNotification.m; sourceTree = "<group>"; };
+		7A71617317C26AF0000E3CE5 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		7A71617417C26AF0000E3CE5 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		7A71617517C26AF0000E3CE5 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		7A71617817C3C55A000E3CE5 /* LynGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynGeneral.h; sourceTree = "<group>"; };
+		7A71617917C3C55C000E3CE5 /* LynGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynGeneral.m; sourceTree = "<group>"; };
+		7A71617C17C3E8CD000E3CE5 /* LynDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynDelegate.h; sourceTree = "<group>"; };
+		7A71617D17C3E8CD000E3CE5 /* LynDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynDelegate.m; sourceTree = "<group>"; };
+		7A87DF861800094D0098A6F0 /* LynCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCondition.h; sourceTree = "<group>"; };
+		7A87DF871800094D0098A6F0 /* LynCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCondition.m; sourceTree = "<group>"; };
+		7A87DF8A18000E010098A6F0 /* LynCombiningCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCombiningCondition.h; sourceTree = "<group>"; };
+		7A87DF8B18000E010098A6F0 /* LynCombiningCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCombiningCondition.m; sourceTree = "<group>"; };
+		7A973655173BBF9600E5B57F /* LynNamedOutlineObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LynNamedOutlineObject.h; sourceTree = "<group>"; };
+		7AA859DB17EF10B600D323D4 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		7AAB03A217B17649009AA6F4 /* LynCommandOpenFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandOpenFile.h; sourceTree = "<group>"; };
+		7AAB03A317B17649009AA6F4 /* LynCommandOpenFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandOpenFile.m; sourceTree = "<group>"; };
+		7AAB03A717B17B04009AA6F4 /* LynCommandOpenFileWithApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandOpenFileWithApplication.h; sourceTree = "<group>"; };
+		7AAB03A817B17B04009AA6F4 /* LynCommandOpenFileWithApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandOpenFileWithApplication.m; sourceTree = "<group>"; };
+		7AAC4E35181E5B6500198B9B /* LynConditionsViewHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynConditionsViewHelperClasses.h; path = "Lyn Kit/LynConditionsViewHelperClasses.h"; sourceTree = SOURCE_ROOT; };
+		7AAC4E36181E5B6500198B9B /* LynConditionsViewHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynConditionsViewHelperClasses.m; path = "Lyn Kit/LynConditionsViewHelperClasses.m"; sourceTree = SOURCE_ROOT; };
+		7AAC6721176B5E7900296915 /* LynExecutionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynExecutionDelegate.h; sourceTree = "<group>"; };
+		7AAC6722176B5E7900296915 /* LynExecutableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynExecutableObject.h; sourceTree = "<group>"; };
+		7AAC6728176C64BB00296915 /* LynCommandWaitOneSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandWaitOneSecond.h; sourceTree = "<group>"; };
+		7AAC6729176C64BB00296915 /* LynCommandWaitOneSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandWaitOneSecond.m; sourceTree = "<group>"; };
+		7AAF732E172D5AFA0022B49C /* LynProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynProject.h; sourceTree = "<group>"; };
+		7AAF732F172D5AFA0022B49C /* LynProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynProject.m; sourceTree = "<group>"; };
+		7AAF7332172D5C050022B49C /* LynFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynFolder.h; sourceTree = "<group>"; };
+		7AAF7333172D5C050022B49C /* LynFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynFolder.m; sourceTree = "<group>"; };
+		7AAF7336172D5D260022B49C /* LynProjectOutlineObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynProjectOutlineObject.h; sourceTree = "<group>"; };
+		7AAF7337172D5D260022B49C /* LynProjectOutlineObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynProjectOutlineObject.m; sourceTree = "<group>"; };
+		7AAF733A172D5EB80022B49C /* LynClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynClass.h; sourceTree = "<group>"; };
+		7AAF733B172D5EB80022B49C /* LynClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynClass.m; sourceTree = "<group>"; };
+		7AAF733E172D5F920022B49C /* LynFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynFunction.h; sourceTree = "<group>"; };
+		7AAF733F172D5F920022B49C /* LynFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynFunction.m; sourceTree = "<group>"; };
+		7AB613F217FDC2D300F34D76 /* LynLibraryViewHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynLibraryViewHelperClasses.h; sourceTree = "<group>"; };
+		7AB613F317FDC2D300F34D76 /* LynLibraryViewHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynLibraryViewHelperClasses.m; sourceTree = "<group>"; };
+		7AB613FA17FF0DCD00F34D76 /* LynRunnerUtility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LynRunnerUtility; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB613FB17FF0DCD00F34D76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AB613FE17FF0DCD00F34D76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AB6140117FF0DCD00F34D76 /* LynRunnerUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LynRunnerUtility-Prefix.pch"; sourceTree = "<group>"; };
+		7AB6140217FF0DCD00F34D76 /* LynRunnerUtility.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LynRunnerUtility.1; sourceTree = "<group>"; };
+		7AC492B917A68C2D006B861A /* ToDo.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ToDo.rtf; sourceTree = "<group>"; };
+		7ADAA45E178717FC00EC41D8 /* LynScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynScope.h; sourceTree = "<group>"; };
+		7ADAA45F178717FC00EC41D8 /* LynScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynScope.m; sourceTree = "<group>"; };
+		7ADAA464178719AE00EC41D8 /* LynVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynVariable.h; sourceTree = "<group>"; };
+		7ADAA465178719AE00EC41D8 /* LynVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynVariable.m; sourceTree = "<group>"; };
+		7ADAA46C178723A100EC41D8 /* LynVariableString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynVariableString.h; sourceTree = "<group>"; };
+		7ADAA46D178723A100EC41D8 /* LynVariableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynVariableString.m; sourceTree = "<group>"; };
+		7ADAA4831789C3E700EC41D8 /* LynVariableInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynVariableInteger.h; sourceTree = "<group>"; };
+		7ADAA4841789C3E700EC41D8 /* LynVariableInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynVariableInteger.m; sourceTree = "<group>"; };
+		7ADAA4871789C4C200EC41D8 /* LynVariableBoolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynVariableBoolean.h; sourceTree = "<group>"; };
+		7ADAA4881789C4C300EC41D8 /* LynVariableBoolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynVariableBoolean.m; sourceTree = "<group>"; };
+		7ADE9C30184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynProjectOutlineViewHelperClasses.h; path = "Lyn Kit/LynProjectOutlineViewHelperClasses.h"; sourceTree = SOURCE_ROOT; };
+		7ADE9C31184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynProjectOutlineViewHelperClasses.m; path = "Lyn Kit/LynProjectOutlineViewHelperClasses.m"; sourceTree = SOURCE_ROOT; };
+		7ADE9C35184B5AA500D5C902 /* LynPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynPreferencesController.h; sourceTree = "<group>"; };
+		7ADE9C36184B5AA500D5C902 /* LynPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynPreferencesController.m; sourceTree = "<group>"; };
+		7ADE9C37184B5AA500D5C902 /* LynPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LynPreferencesWindow.xib; sourceTree = "<group>"; };
+		7ADE9C3A184B722900D5C902 /* LynPreferencesHelperClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynPreferencesHelperClasses.h; sourceTree = "<group>"; };
+		7ADE9C3B184B722900D5C902 /* LynPreferencesHelperClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynPreferencesHelperClasses.m; sourceTree = "<group>"; };
+		7AE60AA11748FAA0002922DD /* LynParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynParameter.h; sourceTree = "<group>"; };
+		7AE60AA21748FAA0002922DD /* LynParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynParameter.m; sourceTree = "<group>"; };
+		7AE60AA81748FEE3002922DD /* LynParameterString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynParameterString.h; sourceTree = "<group>"; };
+		7AE60AA91748FEE3002922DD /* LynParameterString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynParameterString.m; sourceTree = "<group>"; };
+		7AE60AC217497300002922DD /* LynCommandWriteLineBreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandWriteLineBreak.h; sourceTree = "<group>"; };
+		7AE60AC317497300002922DD /* LynCommandWriteLineBreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandWriteLineBreak.m; sourceTree = "<group>"; };
+		7AE69D9017B2582F00AF8BB2 /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		7AE69D9117B2582F00AF8BB2 /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		7AED224817A92ABA009028D6 /* Lyn AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lyn AppIcon.png"; path = "Graphics/Lyn AppIcon.png"; sourceTree = "<group>"; };
+		7AED224917A92ABA009028D6 /* Lyn DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Lyn DocumentIcon.icns"; path = "Graphics/Lyn DocumentIcon.icns"; sourceTree = "<group>"; };
+		7AED224A17A92ABA009028D6 /* Lyn DocumentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lyn DocumentIcon.png"; path = "Graphics/Lyn DocumentIcon.png"; sourceTree = "<group>"; };
+		7AED224C17A92ABA009028D6 /* LynRunner AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LynRunner AppIcon.png"; path = "Graphics/LynRunner AppIcon.png"; sourceTree = "<group>"; };
+		7AED225517A92AF7009028D6 /* Lyn AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Lyn AppIcon.icns"; sourceTree = "<group>"; };
+		7AED225717A92B26009028D6 /* LynRunner AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "LynRunner AppIcon.icns"; sourceTree = "<group>"; };
+		7AEEEA8B17A98F9000BF817E /* LynParameterInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynParameterInteger.h; sourceTree = "<group>"; };
+		7AEEEA8C17A98F9000BF817E /* LynParameterInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynParameterInteger.m; sourceTree = "<group>"; };
+		7AEEEA8F17A9922C00BF817E /* LynCommandWait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandWait.h; sourceTree = "<group>"; };
+		7AEEEA9017A9922C00BF817E /* LynCommandWait.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandWait.m; sourceTree = "<group>"; };
+		7AF0FF7D17AFB28E00DE46BE /* LynCommandOpenApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandOpenApplication.h; sourceTree = "<group>"; };
+		7AF0FF7E17AFB28E00DE46BE /* LynCommandOpenApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandOpenApplication.m; sourceTree = "<group>"; };
+		7AF65C931842111E001319D3 /* LynCommandScanBoolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandScanBoolean.h; sourceTree = "<group>"; };
+		7AF65C941842111E001319D3 /* LynCommandScanBoolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandScanBoolean.m; sourceTree = "<group>"; };
+		7AF65C971842141E001319D3 /* LynCommandScanInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LynCommandScanInteger.h; sourceTree = "<group>"; };
+		7AF65C981842141E001319D3 /* LynCommandScanInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LynCommandScanInteger.m; sourceTree = "<group>"; };
+		7AFD8B2917C74DD600ABDC51 /* Bugs.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Bugs.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A07F80917AF91310002AD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A07F80E17AF91310002AD16 /* Cocoa.framework in Frameworks */,
+				7A48EAB517AF9FA600A015E5 /* Lyn Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AC76172D268C006ACC4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AC7A172D268C006ACC4B /* Cocoa.framework in Frameworks */,
+				7A1B3E5E17B83A0400DAE180 /* ScriptingBridge.framework in Frameworks */,
+				7A32AC98172D2A93006ACC4B /* Lyn Framework.framework in Frameworks */,
+				7A0177421812799700DE1983 /* Lyn Kit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E83D7172C724C00DBF507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAC4E3A181E5DB900198B9B /* Lyn Kit.framework in Frameworks */,
+				7A4E83DE172C724C00DBF507 /* Cocoa.framework in Frameworks */,
+				7A1B3E5617B82C2B00DAE180 /* CoreServices.framework in Frameworks */,
+				7A1B3E5417B8297B00DAE180 /* ScriptingBridge.framework in Frameworks */,
+				7A48EAB617AF9FCD00A015E5 /* Lyn Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E8403172C72E000DBF507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54F9A917AF93D600DE3B3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4FB68617F5B8090043425D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4FB69B17F5B9E40043425D /* Lyn Framework.framework in Frameworks */,
+				7A4FB68A17F5B8090043425D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB613F717FF0DCD00F34D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB613FC17FF0DCD00F34D76 /* Foundation.framework in Frameworks */,
+				7AB6140A17FF0E1600F34D76 /* Cocoa.framework in Frameworks */,
+				7A87DF8017FF0FDD0098A6F0 /* Lyn Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A0115ED17BFEF8B00A899CB /* Lyn Library View */ = {
+			isa = PBXGroup;
+			children = (
+				7A0115EE17BFEFB200A899CB /* LynLibraryView.h */,
+				7A0115EF17BFEFB200A899CB /* LynLibraryView.m */,
+				7A0115F217BFEFD600A899CB /* LynLibraryView.xib */,
+				7AB613F217FDC2D300F34D76 /* LynLibraryViewHelperClasses.h */,
+				7AB613F317FDC2D300F34D76 /* LynLibraryViewHelperClasses.m */,
+			);
+			name = "Lyn Library View";
+			sourceTree = "<group>";
+		};
+		7A01773A18126CFD00DE1983 /* Lyn Editor View */ = {
+			isa = PBXGroup;
+			children = (
+				7A04C1981801BDA800E76BCA /* Helper Classes */,
+				7A54F9D817AF955800DE3B3E /* LynUtilityViewDelegate.h */,
+				7AE425D0177E05F000A198C6 /* Lyn Project Outline View */,
+				7A8CFD8F178DB39400044DA5 /* Lyn Warnings View */,
+				7AE425AC177DCF7B00A198C6 /* Lyn Editor View */,
+				7A04C1971801BD8700E76BCA /* Utility Views */,
+			);
+			name = "Lyn Editor View";
+			sourceTree = "<group>";
+		};
+		7A01773B18126D4000DE1983 /* Lyn Runner View */ = {
+			isa = PBXGroup;
+			children = (
+				7A01773C18126D6C00DE1983 /* LynRunnerConsoleView.h */,
+				7A01773D18126D6C00DE1983 /* LynRunnerConsoleView.m */,
+				7A01774018126DF900DE1983 /* LynRunnerConsoleView.xib */,
+			);
+			name = "Lyn Runner View";
+			sourceTree = "<group>";
+		};
+		7A04C18418001D3200E76BCA /* LynConditionsView */ = {
+			isa = PBXGroup;
+			children = (
+				7A0627E81808910200F709A1 /* LynConditionsViewController.h */,
+				7A0627E91808910200F709A1 /* LynConditionsViewController.m */,
+				7A0627E71808910200F709A1 /* LynConditionsView.xib */,
+				7AAC4E35181E5B6500198B9B /* LynConditionsViewHelperClasses.h */,
+				7AAC4E36181E5B6500198B9B /* LynConditionsViewHelperClasses.m */,
+			);
+			name = LynConditionsView;
+			sourceTree = "<group>";
+		};
+		7A04C1971801BD8700E76BCA /* Utility Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE4259517773E6F00A198C6 /* Lyn Inspector View */,
+				7A0115ED17BFEF8B00A899CB /* Lyn Library View */,
+			);
+			name = "Utility Views";
+			sourceTree = "<group>";
+		};
+		7A04C1981801BDA800E76BCA /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A4FB6B517F877F70043425D /* LynProjectSettingsManager.h */,
+				7A4FB6B617F877F70043425D /* LynProjectSettingsManager.m */,
+				7A54F9AC17AF942000DE3B3E /* LynVariableChooserView.h */,
+				7A54F9AD17AF942000DE3B3E /* LynVariableChooserView.m */,
+				7A54F9AE17AF942000DE3B3E /* LynVariableChooserView.xib */,
+				7A54F9B417AF949700DE3B3E /* LynOutlineController.h */,
+				7A54F9B517AF949700DE3B3E /* LynOutlineController.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		7A07F80F17AF91310002AD16 /* Lyn Kit */ = {
+			isa = PBXGroup;
+			children = (
+				7A07F81E17AF918D0002AD16 /* Lyn Kit.h */,
+				7A01773A18126CFD00DE1983 /* Lyn Editor View */,
+				7A01773B18126D4000DE1983 /* Lyn Runner View */,
+				7A07F81017AF91320002AD16 /* Supporting Files */,
+			);
+			path = "Lyn Kit";
+			sourceTree = "<group>";
+		};
+		7A07F81017AF91320002AD16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A07F81117AF91320002AD16 /* Lyn Kit-Info.plist */,
+				7A07F81217AF91320002AD16 /* InfoPlist.strings */,
+				7A07F81517AF91320002AD16 /* Lyn Kit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A2D9B8C1785D7CF0080596D /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				7A2D9B8D1785D7F40080596D /* LynCommandCallFunction.h */,
+				7A2D9B8E1785D7F40080596D /* LynCommandCallFunction.m */,
+			);
+			name = Calls;
+			sourceTree = "<group>";
+		};
+		7A32AC6D172D22C8006ACC4B /* LynRunner */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AC6E172D22E1006ACC4B /* LynRunner.h */,
+				7A32AC6F172D22E1006ACC4B /* LynRunner.m */,
+				7A32AC72172D22F2006ACC4B /* LynRunnerDelegate.h */,
+				7A1B3E6B17B9537D00DAE180 /* LynRunnerDebugDelegate.h */,
+			);
+			name = LynRunner;
+			sourceTree = "<group>";
+		};
+		7A32AC7B172D268C006ACC4B /* LynRunner */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EA3131784A47F00F75C8B /* Lyn Runner Document */,
+				7A71617217C26ACD000E3CE5 /* Lyn Runner Preferences */,
+				7A32AC8D172D268D006ACC4B /* MainMenu.xib */,
+				7A1B3E5017B8210100DAE180 /* LynRunnerDelegate.h */,
+				7A1B3E5117B8210100DAE180 /* LynRunnerDelegate.m */,
+				7A32AC7C172D268D006ACC4B /* Supporting Files */,
+			);
+			path = LynRunner;
+			sourceTree = "<group>";
+		};
+		7A32AC7C172D268D006ACC4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A1B3E4D17B81B0F00DAE180 /* LynRunner.sdef */,
+				7A1B3E6117B8E1BD00DAE180 /* LynRunner.entitlements */,
+				7A32AC7D172D268D006ACC4B /* LynRunner-Info.plist */,
+				7A32AC7E172D268D006ACC4B /* InfoPlist.strings */,
+				7A32AC81172D268D006ACC4B /* main.m */,
+				7A32AC83172D268D006ACC4B /* LynRunner-Prefix.pch */,
+				7A32AC84172D268D006ACC4B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A3DF102180850BF001646F3 /* Class Outline */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AC64172D1C23006ACC4B /* LynCommand.h */,
+				7A32AC65172D1C23006ACC4B /* LynCommand.m */,
+				7AAB03A617B17AB1009AA6F4 /* Commands */,
+				7A0115F417BFF44B00A899CB /* LynCommands.h */,
+				7A0115F517BFF44C00A899CB /* LynCommands.m */,
+				7AAF733E172D5F920022B49C /* LynFunction.h */,
+				7AAF733F172D5F920022B49C /* LynFunction.m */,
+			);
+			name = "Class Outline";
+			sourceTree = "<group>";
+		};
+		7A444E97182FCA85005CAD1E /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				7AF65C931842111E001319D3 /* LynCommandScanBoolean.h */,
+				7AF65C941842111E001319D3 /* LynCommandScanBoolean.m */,
+				7AF65C971842141E001319D3 /* LynCommandScanInteger.h */,
+				7AF65C981842141E001319D3 /* LynCommandScanInteger.m */,
+				7A444E98182FCAA7005CAD1E /* LynCommandScanString.h */,
+				7A444E99182FCAA7005CAD1E /* LynCommandScanString.m */,
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
+		7A444E9C182FD6BA005CAD1E /* LynUseReturnValueView */ = {
+			isa = PBXGroup;
+			children = (
+				7A444E9D182FD6FB005CAD1E /* LynUseReturnValueViewController.h */,
+				7A444E9E182FD6FB005CAD1E /* LynUseReturnValueViewController.m */,
+				7A444E9F182FD6FB005CAD1E /* LynUseReturnValueView.xib */,
+			);
+			name = LynUseReturnValueView;
+			sourceTree = "<group>";
+		};
+		7A4E83D1172C724C00DBF507 = {
+			isa = PBXGroup;
+			children = (
+				7AC492B917A68C2D006B861A /* ToDo.rtf */,
+				7AFD8B2917C74DD600ABDC51 /* Bugs.rtf */,
+				7A4E8409172C72E000DBF507 /* Lyn Framework */,
+				7A07F80F17AF91310002AD16 /* Lyn Kit */,
+				7A4E83E3172C724D00DBF507 /* Lyn */,
+				7A32AC7B172D268C006ACC4B /* LynRunner */,
+				7AB613FD17FF0DCD00F34D76 /* LynRunnerUtility */,
+				7AED224617A922E7009028D6 /* Graphics */,
+				7A4FB68B17F5B8090043425D /* Lyn Framework Tests */,
+				7A4E83DC172C724C00DBF507 /* Frameworks */,
+				7A4E83DB172C724C00DBF507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A4E83DB172C724C00DBF507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E83DA172C724C00DBF507 /* Lyn.app */,
+				7A4E8407172C72E000DBF507 /* Lyn Framework.framework */,
+				7A32AC79172D268C006ACC4B /* LynRunner.app */,
+				7A07F80D17AF91310002AD16 /* Lyn Kit.framework */,
+				7A4FB68917F5B8090043425D /* Lyn Framework Tests.xctest */,
+				7AB613FA17FF0DCD00F34D76 /* LynRunnerUtility */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A4E83DC172C724C00DBF507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E83DD172C724C00DBF507 /* Cocoa.framework */,
+				7A1B3E5317B8297B00DAE180 /* ScriptingBridge.framework */,
+				7A1B3E5517B82C2B00DAE180 /* CoreServices.framework */,
+				7A63313217EC60E50005C78F /* XCTest.framework */,
+				7AB613FB17FF0DCD00F34D76 /* Foundation.framework */,
+				7A4E83DF172C724C00DBF507 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A4E83DF172C724C00DBF507 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E83E0172C724C00DBF507 /* AppKit.framework */,
+				7A4E83E1172C724C00DBF507 /* CoreData.framework */,
+				7A4E83E2172C724C00DBF507 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7A4E83E3172C724D00DBF507 /* Lyn */ = {
+			isa = PBXGroup;
+			children = (
+				7A5033BF1732F6BC000D6550 /* Graphics */,
+				7AAF734A172D679D0022B49C /* Lyn Document */,
+				7ADE9C34184B5A7700D5C902 /* Preferences */,
+				7A4E83F5172C724D00DBF507 /* MainMenu.xib */,
+				7A71617C17C3E8CD000E3CE5 /* LynDelegate.h */,
+				7A71617D17C3E8CD000E3CE5 /* LynDelegate.m */,
+				7A4E83E4172C724D00DBF507 /* Supporting Files */,
+			);
+			path = Lyn;
+			sourceTree = "<group>";
+		};
+		7A4E83E4172C724D00DBF507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AA859DB17EF10B600D323D4 /* Icons.xcassets */,
+				7A1B3E6717B8FE0700DAE180 /* LynRunnerScript.h */,
+				7A4E83E5172C724D00DBF507 /* Lyn-Info.plist */,
+				7A4E83E6172C724D00DBF507 /* InfoPlist.strings */,
+				7A4E83E9172C724D00DBF507 /* main.m */,
+				7A4E83EB172C724D00DBF507 /* Lyn-Prefix.pch */,
+				7A4E83EC172C724D00DBF507 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4E8409172C72E000DBF507 /* Lyn Framework */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E8417172C73D700DBF507 /* Lyn Framework.h */,
+				7A32AC73172D24E5006ACC4B /* LynCodeObjects.h */,
+				7A71617817C3C55A000E3CE5 /* LynGeneral.h */,
+				7A71617917C3C55C000E3CE5 /* LynGeneral.m */,
+				7ADAA46A1787226200EC41D8 /* LynCodeObjects */,
+				7A32AC6D172D22C8006ACC4B /* LynRunner */,
+				7A4E840A172C72E000DBF507 /* Supporting Files */,
+			);
+			path = "Lyn Framework";
+			sourceTree = "<group>";
+		};
+		7A4E840A172C72E000DBF507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E840B172C72E000DBF507 /* Lyn Framework-Info.plist */,
+				7A4E840C172C72E000DBF507 /* InfoPlist.strings */,
+				7A4E840F172C72E000DBF507 /* Lyn Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4FB68B17F5B8090043425D /* Lyn Framework Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A3DF10018084AB1001646F3 /* LynScopeTests.m */,
+				7A4FB66817F5B2A90043425D /* LynVariableTests.m */,
+				7A4FB68C17F5B8090043425D /* Supporting Files */,
+			);
+			path = "Lyn Framework Tests";
+			sourceTree = "<group>";
+		};
+		7A4FB68C17F5B8090043425D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4FB68D17F5B8090043425D /* Lyn Framework Tests-Info.plist */,
+				7A4FB68E17F5B8090043425D /* InfoPlist.strings */,
+				7A4FB69317F5B8090043425D /* Lyn Framework Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4FB69D17F619540043425D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7A4FB69E17F619940043425D /* LynCommandPlaySound.h */,
+				7A4FB69F17F619940043425D /* LynCommandPlaySound.m */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+		7A4FB6A617F6CE250043425D /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				7A4FB6A217F6CE1E0043425D /* LynComment.h */,
+				7A4FB6A317F6CE1E0043425D /* LynComment.m */,
+			);
+			name = Comments;
+			sourceTree = "<group>";
+		};
+		7A5033BF1732F6BC000D6550 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				7A5033C01732F6D1000D6550 /* Class.png */,
+				7A5033C41732F8FE000D6550 /* Class 16x16.png */,
+				7A5033C11732F6D1000D6550 /* Folder.png */,
+				7A5033C51732F8FE000D6550 /* Folder 16x16.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		7A60B3F4178C911F00F99B22 /* Warnings & Errors */ = {
+			isa = PBXGroup;
+			children = (
+				7A60B3F5178C915200F99B22 /* LynWarning.h */,
+				7A60B3F6178C915200F99B22 /* LynWarning.m */,
+				7A60B3F9178C923E00F99B22 /* LynError.h */,
+				7A60B3FA178C923E00F99B22 /* LynError.m */,
+			);
+			name = "Warnings & Errors";
+			sourceTree = "<group>";
+		};
+		7A6789E81763B98E00359CF6 /* Variables & Scope */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAA464178719AE00EC41D8 /* LynVariable.h */,
+				7ADAA465178719AE00EC41D8 /* LynVariable.m */,
+				7ADAA4871789C4C200EC41D8 /* LynVariableBoolean.h */,
+				7ADAA4881789C4C300EC41D8 /* LynVariableBoolean.m */,
+				7ADAA4831789C3E700EC41D8 /* LynVariableInteger.h */,
+				7ADAA4841789C3E700EC41D8 /* LynVariableInteger.m */,
+				7ADAA46C178723A100EC41D8 /* LynVariableString.h */,
+				7ADAA46D178723A100EC41D8 /* LynVariableString.m */,
+				7ADAA45E178717FC00EC41D8 /* LynScope.h */,
+				7ADAA45F178717FC00EC41D8 /* LynScope.m */,
+			);
+			name = "Variables & Scope";
+			sourceTree = "<group>";
+		};
+		7A6DD0F218521A97004DECC6 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD0F318521ACA004DECC6 /* LynCommandPostNotification.h */,
+				7A6DD0F418521ACA004DECC6 /* LynCommandPostNotification.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		7A71617217C26ACD000E3CE5 /* Lyn Runner Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				7A71617317C26AF0000E3CE5 /* PreferencesController.h */,
+				7A71617417C26AF0000E3CE5 /* PreferencesController.m */,
+				7A71617517C26AF0000E3CE5 /* Preferences.xib */,
+			);
+			name = "Lyn Runner Preferences";
+			sourceTree = "<group>";
+		};
+		7A87DF84180008FA0098A6F0 /* Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				7A87DF861800094D0098A6F0 /* LynCondition.h */,
+				7A87DF871800094D0098A6F0 /* LynCondition.m */,
+				7A87DF8A18000E010098A6F0 /* LynCombiningCondition.h */,
+				7A87DF8B18000E010098A6F0 /* LynCombiningCondition.m */,
+				7A04C18018001C7500E76BCA /* LynComparingCondition.h */,
+				7A04C18118001C7500E76BCA /* LynComparingCondition.m */,
+				7A4FBD32181415650038DEAE /* LynComparingConditionBoolean.h */,
+				7A4FBD33181415650038DEAE /* LynComparingConditionBoolean.m */,
+				7A49793B1821A77B00E98A2C /* LynComparingConditionInteger.h */,
+				7A49793C1821A77B00E98A2C /* LynComparingConditionInteger.m */,
+				7A49793F1821A89700E98A2C /* LynComparingConditionString.h */,
+				7A4979401821A89800E98A2C /* LynComparingConditionString.m */,
+			);
+			name = Conditions;
+			sourceTree = "<group>";
+		};
+		7A87DF851800091C0098A6F0 /* Outline Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E8419172C752900DBF507 /* LynOutlineObject.h */,
+				7A4E841A172C752900DBF507 /* LynOutlineObject.m */,
+				7A973655173BBF9600E5B57F /* LynNamedOutlineObject.h */,
+				7A3DF102180850BF001646F3 /* Class Outline */,
+				7AE60AC017496576002922DD /* Project Outline */,
+			);
+			name = "Outline Objects";
+			sourceTree = "<group>";
+		};
+		7A8CFD8F178DB39400044DA5 /* Lyn Warnings View */ = {
+			isa = PBXGroup;
+			children = (
+				7A48EAA817AF969D00A015E5 /* LynWarningsView.h */,
+				7A48EAA917AF969D00A015E5 /* LynWarningsView.m */,
+				7A48EAAA17AF969D00A015E5 /* LynWarningsView.xib */,
+			);
+			name = "Lyn Warnings View";
+			path = "../Lyn Framework";
+			sourceTree = "<group>";
+		};
+		7A8EA3131784A47F00F75C8B /* Lyn Runner Document */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AC93172D26E4006ACC4B /* LynRunnerDocument.h */,
+				7A32AC94172D26E4006ACC4B /* LynRunnerDocument.m */,
+				7A32AC95172D26E4006ACC4B /* LynRunner.xib */,
+			);
+			name = "Lyn Runner Document";
+			sourceTree = "<group>";
+		};
+		7AAB03A617B17AB1009AA6F4 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				7A4FB6A617F6CE250043425D /* Comments */,
+				7A2D9B8C1785D7CF0080596D /* Calls */,
+				7AAFF8D017759BC100B9ACB2 /* Branches */,
+				7AF0FF7C17AFB25B00DE46BE /* Open */,
+				7A6DD0F218521A97004DECC6 /* Notifications */,
+				7A4FB69D17F619540043425D /* Sound */,
+				7AAC6727176C648800296915 /* Wait */,
+				7A444E97182FCA85005CAD1E /* Scan */,
+				7AAC6726176C648300296915 /* Write */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		7AAC2F7317B22EF200C1C5A4 /* LynDefineParametersView */ = {
+			isa = PBXGroup;
+			children = (
+				7A43475318088AB3008F651D /* LynDefineParametersViewController.h */,
+				7A43475418088AB3008F651D /* LynDefineParametersViewController.m */,
+				7A43475218088AB3008F651D /* LynDefineParametersView.xib */,
+				7A062801180892CA00F709A1 /* LynDefineParametersViewHelperClasses.h */,
+				7A062802180892CA00F709A1 /* LynDefineParametersViewHelperClasses.m */,
+			);
+			name = LynDefineParametersView;
+			sourceTree = "<group>";
+		};
+		7AAC6725176B5E9F00296915 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7AAC6721176B5E7900296915 /* LynExecutionDelegate.h */,
+				7AAC6722176B5E7900296915 /* LynExecutableObject.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		7AAC6726176C648300296915 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				7A444E51182EE42A005CAD1E /* LynCommandWriteInteger.h */,
+				7A444E52182EE42A005CAD1E /* LynCommandWriteInteger.m */,
+				7A32AC68172D1F32006ACC4B /* LynCommandWriteString.h */,
+				7A32AC69172D1F32006ACC4B /* LynCommandWriteString.m */,
+				7AE60AC217497300002922DD /* LynCommandWriteLineBreak.h */,
+				7AE60AC317497300002922DD /* LynCommandWriteLineBreak.m */,
+			);
+			name = Write;
+			sourceTree = "<group>";
+		};
+		7AAC6727176C648800296915 /* Wait */ = {
+			isa = PBXGroup;
+			children = (
+				7AAC6728176C64BB00296915 /* LynCommandWaitOneSecond.h */,
+				7AAC6729176C64BB00296915 /* LynCommandWaitOneSecond.m */,
+				7AEEEA8F17A9922C00BF817E /* LynCommandWait.h */,
+				7AEEEA9017A9922C00BF817E /* LynCommandWait.m */,
+			);
+			name = Wait;
+			sourceTree = "<group>";
+		};
+		7AAF734A172D679D0022B49C /* Lyn Document */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E83FD172C72A000DBF507 /* LynDocument.h */,
+				7A4E83FE172C72A000DBF507 /* LynDocument.m */,
+				7A1B3E6817B9335A00DAE180 /* DebugController.h */,
+				7A1B3E6917B9335A00DAE180 /* DebugController.m */,
+				7AE69D9017B2582F00AF8BB2 /* StatusView.h */,
+				7AE69D9117B2582F00AF8BB2 /* StatusView.m */,
+				7A4E83FF172C72A000DBF507 /* LynDocument.xib */,
+			);
+			name = "Lyn Document";
+			sourceTree = "<group>";
+		};
+		7AAFF8D017759BC100B9ACB2 /* Branches */ = {
+			isa = PBXGroup;
+			children = (
+				7A04C18B1800297C00E76BCA /* LynCommandIf.h */,
+				7A04C18C1800297C00E76BCA /* LynCommandIf.m */,
+				7A444E4D182E42E3005CAD1E /* LynCommandForLoop.h */,
+				7A444E4E182E42E3005CAD1E /* LynCommandForLoop.m */,
+				7A17B1D11825166C00ED1C0F /* LynCommandWhileLoop.h */,
+				7A17B1D21825166C00ED1C0F /* LynCommandWhileLoop.m */,
+			);
+			name = Branches;
+			sourceTree = "<group>";
+		};
+		7AB613FD17FF0DCD00F34D76 /* LynRunnerUtility */ = {
+			isa = PBXGroup;
+			children = (
+				7AB613FE17FF0DCD00F34D76 /* main.m */,
+				7AB6140217FF0DCD00F34D76 /* LynRunnerUtility.1 */,
+				7AB6140017FF0DCD00F34D76 /* Supporting Files */,
+			);
+			path = LynRunnerUtility;
+			sourceTree = "<group>";
+		};
+		7AB6140017FF0DCD00F34D76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AB6140117FF0DCD00F34D76 /* LynRunnerUtility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ADAA46A1787226200EC41D8 /* LynCodeObjects */ = {
+			isa = PBXGroup;
+			children = (
+				7AAC6725176B5E9F00296915 /* Protocols */,
+				7A60B3F4178C911F00F99B22 /* Warnings & Errors */,
+				7A6789E81763B98E00359CF6 /* Variables & Scope */,
+				7AE60AA71748FECB002922DD /* Parameters */,
+				7A87DF84180008FA0098A6F0 /* Conditions */,
+				7A87DF851800091C0098A6F0 /* Outline Objects */,
+			);
+			name = LynCodeObjects;
+			sourceTree = "<group>";
+		};
+		7ADAA470178724FA00EC41D8 /* LynFillParametersView */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9EC17AF95B700DE3B3E /* LynFillParametersViewController.h */,
+				7A54F9ED17AF95B700DE3B3E /* LynFillParametersViewController.m */,
+				7A54F9EB17AF95B700DE3B3E /* LynFillParametersView.xib */,
+				7A0627FD180891C900F709A1 /* LynFillParametersViewHelperClasses.h */,
+				7A0627FE180891C900F709A1 /* LynFillParametersViewHelperClasses.m */,
+			);
+			name = LynFillParametersView;
+			sourceTree = "<group>";
+		};
+		7ADE9C34184B5A7700D5C902 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE9C35184B5AA500D5C902 /* LynPreferencesController.h */,
+				7ADE9C36184B5AA500D5C902 /* LynPreferencesController.m */,
+				7ADE9C37184B5AA500D5C902 /* LynPreferencesWindow.xib */,
+				7ADE9C3A184B722900D5C902 /* LynPreferencesHelperClasses.h */,
+				7ADE9C3B184B722900D5C902 /* LynPreferencesHelperClasses.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		7AE4257117772A0C00A198C6 /* LynDefineScopeView */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9DB17AF95B700DE3B3E /* LynDefineScopeViewController.h */,
+				7A54F9DC17AF95B700DE3B3E /* LynDefineScopeViewController.m */,
+				7A54F9DA17AF95B700DE3B3E /* LynDefineScopeView.xib */,
+				7A43475718088AB3008F651D /* LynDefineScopeViewHelperClasses.h */,
+				7A43475818088AB3008F651D /* LynDefineScopeViewHelperClasses.m */,
+			);
+			name = LynDefineScopeView;
+			sourceTree = "<group>";
+		};
+		7AE4259517773E6F00A198C6 /* Lyn Inspector View */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9F017AF95B700DE3B3E /* LynInspectorView.h */,
+				7A54F9F117AF95B700DE3B3E /* LynInspectorView.m */,
+				7A54F9F217AF95B700DE3B3E /* LynInspectorView.xib */,
+				7AE4257117772A0C00A198C6 /* LynDefineScopeView */,
+				7AAC2F7317B22EF200C1C5A4 /* LynDefineParametersView */,
+				7ADAA470178724FA00EC41D8 /* LynFillParametersView */,
+				7A04C18418001D3200E76BCA /* LynConditionsView */,
+				7A444E9C182FD6BA005CAD1E /* LynUseReturnValueView */,
+			);
+			name = "Lyn Inspector View";
+			path = "../Lyn Framework";
+			sourceTree = "<group>";
+		};
+		7AE425A11777425000A198C6 /* Lyn Class View */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9CC17AF952600DE3B3E /* LynClassView.h */,
+				7A54F9CD17AF952600DE3B3E /* LynClassView.m */,
+				7A54F9CE17AF952600DE3B3E /* LynClassView.xib */,
+				7A54F9CA17AF952600DE3B3E /* LynClassOutlineController.h */,
+				7A54F9CB17AF952600DE3B3E /* LynClassOutlineController.m */,
+				7A0627F91808918700F709A1 /* LynClassRowView.h */,
+				7A0627FA1808918700F709A1 /* LynClassRowView.m */,
+			);
+			name = "Lyn Class View";
+			sourceTree = "<group>";
+		};
+		7AE425A5177DCACB00A198C6 /* Lyn Project View */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9C417AF950100DE3B3E /* LynProjectView.h */,
+				7A54F9C517AF950100DE3B3E /* LynProjectView.m */,
+				7A54F9C617AF950100DE3B3E /* LynProjectView.xib */,
+			);
+			name = "Lyn Project View";
+			sourceTree = "<group>";
+		};
+		7AE425AC177DCF7B00A198C6 /* Lyn Editor View */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9BE17AF94D800DE3B3E /* LynEditorView.h */,
+				7A54F9BF17AF94D800DE3B3E /* LynEditorView.m */,
+				7A54F9C017AF94D800DE3B3E /* LynEditorView.xib */,
+				7AE425A5177DCACB00A198C6 /* Lyn Project View */,
+				7AE425A11777425000A198C6 /* Lyn Class View */,
+			);
+			name = "Lyn Editor View";
+			path = "../Lyn Framework";
+			sourceTree = "<group>";
+		};
+		7AE425D0177E05F000A198C6 /* Lyn Project Outline View */ = {
+			isa = PBXGroup;
+			children = (
+				7A54F9B617AF949700DE3B3E /* LynProjectOutlineView.h */,
+				7A54F9B717AF949700DE3B3E /* LynProjectOutlineView.m */,
+				7A54F9B817AF949700DE3B3E /* LynProjectOutlineView.xib */,
+				7A54F9AA17AF942000DE3B3E /* LynProjectOutlineController.h */,
+				7A54F9AB17AF942000DE3B3E /* LynProjectOutlineController.m */,
+				7ADE9C30184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.h */,
+				7ADE9C31184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.m */,
+			);
+			name = "Lyn Project Outline View";
+			path = "../Lyn Framework";
+			sourceTree = "<group>";
+		};
+		7AE60AA71748FECB002922DD /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				7AE60AA11748FAA0002922DD /* LynParameter.h */,
+				7AE60AA21748FAA0002922DD /* LynParameter.m */,
+				7A07F80017AF887C0002AD16 /* LynParameterBoolean.h */,
+				7A07F80117AF887C0002AD16 /* LynParameterBoolean.m */,
+				7AEEEA8B17A98F9000BF817E /* LynParameterInteger.h */,
+				7AEEEA8C17A98F9000BF817E /* LynParameterInteger.m */,
+				7AE60AA81748FEE3002922DD /* LynParameterString.h */,
+				7AE60AA91748FEE3002922DD /* LynParameterString.m */,
+			);
+			name = Parameters;
+			sourceTree = "<group>";
+		};
+		7AE60AC017496576002922DD /* Project Outline */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF7336172D5D260022B49C /* LynProjectOutlineObject.h */,
+				7AAF7337172D5D260022B49C /* LynProjectOutlineObject.m */,
+				7AAF733A172D5EB80022B49C /* LynClass.h */,
+				7AAF733B172D5EB80022B49C /* LynClass.m */,
+				7AAF7332172D5C050022B49C /* LynFolder.h */,
+				7AAF7333172D5C050022B49C /* LynFolder.m */,
+				7AAF732E172D5AFA0022B49C /* LynProject.h */,
+				7AAF732F172D5AFA0022B49C /* LynProject.m */,
+			);
+			name = "Project Outline";
+			sourceTree = "<group>";
+		};
+		7AED224617A922E7009028D6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				7AED225517A92AF7009028D6 /* Lyn AppIcon.icns */,
+				7AED224817A92ABA009028D6 /* Lyn AppIcon.png */,
+				7AED225717A92B26009028D6 /* LynRunner AppIcon.icns */,
+				7AED224C17A92ABA009028D6 /* LynRunner AppIcon.png */,
+				7AED224917A92ABA009028D6 /* Lyn DocumentIcon.icns */,
+				7AED224A17A92ABA009028D6 /* Lyn DocumentIcon.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		7AF0FF7C17AFB25B00DE46BE /* Open */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0FF7D17AFB28E00DE46BE /* LynCommandOpenApplication.h */,
+				7AF0FF7E17AFB28E00DE46BE /* LynCommandOpenApplication.m */,
+				7AAB03A217B17649009AA6F4 /* LynCommandOpenFile.h */,
+				7AAB03A317B17649009AA6F4 /* LynCommandOpenFile.m */,
+				7AAB03A717B17B04009AA6F4 /* LynCommandOpenFileWithApplication.h */,
+				7AAB03A817B17B04009AA6F4 /* LynCommandOpenFileWithApplication.m */,
+			);
+			name = Open;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A07F80A17AF91310002AD16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A07F81F17AF918D0002AD16 /* Lyn Kit.h in Headers */,
+				7A54F9AF17AF942000DE3B3E /* LynProjectOutlineController.h in Headers */,
+				7A01773E18126D6C00DE1983 /* LynRunnerConsoleView.h in Headers */,
+				7ADE9C32184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.h in Headers */,
+				7AAC4E37181E5B6500198B9B /* LynConditionsViewHelperClasses.h in Headers */,
+				7A54F9B117AF942000DE3B3E /* LynVariableChooserView.h in Headers */,
+				7A54F9B917AF949700DE3B3E /* LynOutlineController.h in Headers */,
+				7A54F9BB17AF949700DE3B3E /* LynProjectOutlineView.h in Headers */,
+				7A54F9C117AF94D800DE3B3E /* LynEditorView.h in Headers */,
+				7A54F9C717AF950100DE3B3E /* LynProjectView.h in Headers */,
+				7A54F9D117AF952600DE3B3E /* LynClassOutlineController.h in Headers */,
+				7A54F9D317AF952600DE3B3E /* LynClassView.h in Headers */,
+				7A54F9D917AF955800DE3B3E /* LynUtilityViewDelegate.h in Headers */,
+				7A0627FB1808918700F709A1 /* LynClassRowView.h in Headers */,
+				7A54F9F417AF95B700DE3B3E /* LynDefineScopeViewController.h in Headers */,
+				7AB613F417FDC2D300F34D76 /* LynLibraryViewHelperClasses.h in Headers */,
+				7A444EA0182FD6FB005CAD1E /* LynUseReturnValueViewController.h in Headers */,
+				7A54FA0517AF95B700DE3B3E /* LynFillParametersViewController.h in Headers */,
+				7A4FB6B717F877F70043425D /* LynProjectSettingsManager.h in Headers */,
+				7A0627ED1808910200F709A1 /* LynConditionsViewController.h in Headers */,
+				7A0627FF180891C900F709A1 /* LynFillParametersViewHelperClasses.h in Headers */,
+				7A54FA0917AF95B700DE3B3E /* LynInspectorView.h in Headers */,
+				7A48EAAB17AF969D00A015E5 /* LynWarningsView.h in Headers */,
+				7A43475A18088AB3008F651D /* LynDefineParametersViewController.h in Headers */,
+				7A0115F017BFEFB200A899CB /* LynLibraryView.h in Headers */,
+				7A43475E18088AB3008F651D /* LynDefineScopeViewHelperClasses.h in Headers */,
+				7A062803180892CA00F709A1 /* LynDefineParametersViewHelperClasses.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E8404172C72E000DBF507 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4E8418172C73D700DBF507 /* Lyn Framework.h in Headers */,
+				7A444E9A182FCAA7005CAD1E /* LynCommandScanString.h in Headers */,
+				7A4E841B172C752900DBF507 /* LynOutlineObject.h in Headers */,
+				7A32AC66172D1C23006ACC4B /* LynCommand.h in Headers */,
+				7A87DF881800094D0098A6F0 /* LynCondition.h in Headers */,
+				7A32AC6A172D1F32006ACC4B /* LynCommandWriteString.h in Headers */,
+				7AF65C951842111E001319D3 /* LynCommandScanBoolean.h in Headers */,
+				7A32AC70172D22E1006ACC4B /* LynRunner.h in Headers */,
+				7A32AC74172D24EA006ACC4B /* LynCodeObjects.h in Headers */,
+				7AAF7330172D5AFA0022B49C /* LynProject.h in Headers */,
+				7A4FB6A017F619940043425D /* LynCommandPlaySound.h in Headers */,
+				7AAF7334172D5C050022B49C /* LynFolder.h in Headers */,
+				7A17B1D31825166C00ED1C0F /* LynCommandWhileLoop.h in Headers */,
+				7AAF7338172D5D260022B49C /* LynProjectOutlineObject.h in Headers */,
+				7AAF733C172D5EB80022B49C /* LynClass.h in Headers */,
+				7AAF7340172D5F920022B49C /* LynFunction.h in Headers */,
+				7AE60AA31748FAA0002922DD /* LynParameter.h in Headers */,
+				7AE60AAA1748FEE3002922DD /* LynParameterString.h in Headers */,
+				7AE60AC417497300002922DD /* LynCommandWriteLineBreak.h in Headers */,
+				7AAC6723176B5E7900296915 /* LynExecutionDelegate.h in Headers */,
+				7AAC6724176B5E7900296915 /* LynExecutableObject.h in Headers */,
+				7AAC672A176C64BB00296915 /* LynCommandWaitOneSecond.h in Headers */,
+				7ADAA460178717FC00EC41D8 /* LynScope.h in Headers */,
+				7A04C18218001C7500E76BCA /* LynComparingCondition.h in Headers */,
+				7ADAA466178719AE00EC41D8 /* LynVariable.h in Headers */,
+				7A4FB6A417F6CE1E0043425D /* LynComment.h in Headers */,
+				7ADAA4891789C4C300EC41D8 /* LynVariableBoolean.h in Headers */,
+				7A444E53182EE42A005CAD1E /* LynCommandWriteInteger.h in Headers */,
+				7AEEEA8D17A98F9000BF817E /* LynParameterInteger.h in Headers */,
+				7ADAA46E178723A100EC41D8 /* LynVariableString.h in Headers */,
+				7ADAA4771787259600EC41D8 /* LynNamedOutlineObject.h in Headers */,
+				7A4FBD34181415650038DEAE /* LynComparingConditionBoolean.h in Headers */,
+				7A444E4F182E42E3005CAD1E /* LynCommandForLoop.h in Headers */,
+				7ADAA478178725EB00EC41D8 /* LynRunnerDelegate.h in Headers */,
+				7A4979411821A89800E98A2C /* LynComparingConditionString.h in Headers */,
+				7ADAA4851789C3E700EC41D8 /* LynVariableInteger.h in Headers */,
+				7A60B3F7178C915200F99B22 /* LynWarning.h in Headers */,
+				7A60B3FB178C923E00F99B22 /* LynError.h in Headers */,
+				7A07F80217AF887C0002AD16 /* LynParameterBoolean.h in Headers */,
+				7AF65C991842141E001319D3 /* LynCommandScanInteger.h in Headers */,
+				7AEEEA9117A9922C00BF817E /* LynCommandWait.h in Headers */,
+				7AF0FF7F17AFB28E00DE46BE /* LynCommandOpenApplication.h in Headers */,
+				7AAB03A417B17649009AA6F4 /* LynCommandOpenFile.h in Headers */,
+				7A49793D1821A77B00E98A2C /* LynComparingConditionInteger.h in Headers */,
+				7AAB03A917B17B04009AA6F4 /* LynCommandOpenFileWithApplication.h in Headers */,
+				7A1B3E6C17B9537D00DAE180 /* LynRunnerDebugDelegate.h in Headers */,
+				7A0115F617BFF44C00A899CB /* LynCommands.h in Headers */,
+				7A87DF8C18000E010098A6F0 /* LynCombiningCondition.h in Headers */,
+				7ADAA45C178717B700EC41D8 /* LynCommandCallFunction.h in Headers */,
+				7A6DD0F518521ACA004DECC6 /* LynCommandPostNotification.h in Headers */,
+				7A71617A17C3C55E000E3CE5 /* LynGeneral.h in Headers */,
+				7A04C18D1800297C00E76BCA /* LynCommandIf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A07F80C17AF91310002AD16 /* Lyn Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A07F81917AF91320002AD16 /* Build configuration list for PBXNativeTarget "Lyn Kit" */;
+			buildPhases = (
+				7A07F80817AF91310002AD16 /* Sources */,
+				7A07F80917AF91310002AD16 /* Frameworks */,
+				7A07F80A17AF91310002AD16 /* Headers */,
+				7A07F80B17AF91310002AD16 /* Resources */,
+			);
+			buildRules = (
+				7AAC2F8017B23E0700C1C5A4 /* PBXBuildRule */,
+			);
+			dependencies = (
+				7AF65CA418421937001319D3 /* PBXTargetDependency */,
+			);
+			name = "Lyn Kit";
+			productName = "Lyn Kit";
+			productReference = 7A07F80D17AF91310002AD16 /* Lyn Kit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A32AC78172D268C006ACC4B /* LynRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A32AC90172D268D006ACC4B /* Build configuration list for PBXNativeTarget "LynRunner" */;
+			buildPhases = (
+				7A32AC75172D268C006ACC4B /* Sources */,
+				7A32AC76172D268C006ACC4B /* Frameworks */,
+				7A32AC77172D268C006ACC4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF65CA01842192C001319D3 /* PBXTargetDependency */,
+				7AF65CA21842192C001319D3 /* PBXTargetDependency */,
+			);
+			name = LynRunner;
+			productName = LynRunner;
+			productReference = 7A32AC79172D268C006ACC4B /* LynRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A4E83D9172C724C00DBF507 /* Lyn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4E83FA172C724D00DBF507 /* Build configuration list for PBXNativeTarget "Lyn" */;
+			buildPhases = (
+				7A4E83D6172C724C00DBF507 /* Sources */,
+				7A4E83D7172C724C00DBF507 /* Frameworks */,
+				7A4E83D8172C724C00DBF507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF65C9C18421924001319D3 /* PBXTargetDependency */,
+				7AF65C9E18421924001319D3 /* PBXTargetDependency */,
+			);
+			name = Lyn;
+			productName = Lyn;
+			productReference = 7A4E83DA172C724C00DBF507 /* Lyn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A4E8406172C72E000DBF507 /* Lyn Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4E8413172C72E000DBF507 /* Build configuration list for PBXNativeTarget "Lyn Framework" */;
+			buildPhases = (
+				7A4E8402172C72E000DBF507 /* Sources */,
+				7A4E8403172C72E000DBF507 /* Frameworks */,
+				7A4E8404172C72E000DBF507 /* Headers */,
+				7A4E8405172C72E000DBF507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lyn Framework";
+			productName = "Lyn Framework";
+			productReference = 7A4E8407172C72E000DBF507 /* Lyn Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A4FB68817F5B8090043425D /* Lyn Framework Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4FB69617F5B8090043425D /* Build configuration list for PBXNativeTarget "Lyn Framework Tests" */;
+			buildPhases = (
+				7A4FB68517F5B8090043425D /* Sources */,
+				7A4FB68617F5B8090043425D /* Frameworks */,
+				7A4FB68717F5B8090043425D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4FB69517F5B8090043425D /* PBXTargetDependency */,
+			);
+			name = "Lyn Framework Tests";
+			productName = "Lyn Framework Tests";
+			productReference = 7A4FB68917F5B8090043425D /* Lyn Framework Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AB613F917FF0DCD00F34D76 /* LynRunnerUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB6140417FF0DCD00F34D76 /* Build configuration list for PBXNativeTarget "LynRunnerUtility" */;
+			buildPhases = (
+				7AB613F617FF0DCD00F34D76 /* Sources */,
+				7AB613F717FF0DCD00F34D76 /* Frameworks */,
+				7AB613F817FF0DCD00F34D76 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFBC1E21820F4E1006067B5 /* PBXTargetDependency */,
+			);
+			name = LynRunnerUtility;
+			productName = LynRunnerUtility;
+			productReference = 7AB613FA17FF0DCD00F34D76 /* LynRunnerUtility */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A4E83D2172C724C00DBF507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Arne Philipeit Software";
+				TargetAttributes = {
+					7A32AC78172D268C006ACC4B = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					7A4E83D9172C724C00DBF507 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					7A4FB68817F5B8090043425D = {
+						TestTargetID = 7A4E8406172C72E000DBF507;
+					};
+				};
+			};
+			buildConfigurationList = 7A4E83D5172C724C00DBF507 /* Build configuration list for PBXProject "Lyn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A4E83D1172C724C00DBF507;
+			productRefGroup = 7A4E83DB172C724C00DBF507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A4E8406172C72E000DBF507 /* Lyn Framework */,
+				7A07F80C17AF91310002AD16 /* Lyn Kit */,
+				7A4E83D9172C724C00DBF507 /* Lyn */,
+				7A32AC78172D268C006ACC4B /* LynRunner */,
+				7AB613F917FF0DCD00F34D76 /* LynRunnerUtility */,
+				7AA02C46174785DE00CB80D3 /* Everything */,
+				7A4FB68817F5B8090043425D /* Lyn Framework Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A07F80B17AF91310002AD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A07F81417AF91320002AD16 /* InfoPlist.strings in Resources */,
+				7A54F9B317AF942000DE3B3E /* LynVariableChooserView.xib in Resources */,
+				7AF65C911841FD0B001319D3 /* Lyn DocumentIcon.png in Resources */,
+				7A54F9BD17AF949700DE3B3E /* LynProjectOutlineView.xib in Resources */,
+				7A54F9C317AF94D800DE3B3E /* LynEditorView.xib in Resources */,
+				7A54F9C917AF950100DE3B3E /* LynProjectView.xib in Resources */,
+				7A54F9D517AF952600DE3B3E /* LynClassView.xib in Resources */,
+				7A0627EC1808910200F709A1 /* LynConditionsView.xib in Resources */,
+				7A54F9F317AF95B700DE3B3E /* LynDefineScopeView.xib in Resources */,
+				7A43475918088AB3008F651D /* LynDefineParametersView.xib in Resources */,
+				7AF65C921841FD0E001319D3 /* Lyn DocumentIcon.icns in Resources */,
+				7A54FA0417AF95B700DE3B3E /* LynFillParametersView.xib in Resources */,
+				7A54FA0B17AF95B700DE3B3E /* LynInspectorView.xib in Resources */,
+				7A48EAAD17AF969D00A015E5 /* LynWarningsView.xib in Resources */,
+				7A01774118126DF900DE1983 /* LynRunnerConsoleView.xib in Resources */,
+				7A444EA2182FD6FB005CAD1E /* LynUseReturnValueView.xib in Resources */,
+				7A0115F317BFEFD600A899CB /* LynLibraryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AC77172D268C006ACC4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AC80172D268D006ACC4B /* InfoPlist.strings in Resources */,
+				7A32AC86172D268D006ACC4B /* Credits.rtf in Resources */,
+				7A32AC8F172D268D006ACC4B /* MainMenu.xib in Resources */,
+				7A32AC97172D26E4006ACC4B /* LynRunner.xib in Resources */,
+				7AED225117A92AD0009028D6 /* Lyn DocumentIcon.icns in Resources */,
+				7AED225217A92AD0009028D6 /* Lyn DocumentIcon.png in Resources */,
+				7AED225417A92AD5009028D6 /* LynRunner AppIcon.png in Resources */,
+				7AED225817A92B26009028D6 /* LynRunner AppIcon.icns in Resources */,
+				7A1B3E4F17B820AD00DAE180 /* LynRunner.sdef in Resources */,
+				7A71617717C26AF0000E3CE5 /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E83D8172C724C00DBF507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4E83E8172C724D00DBF507 /* InfoPlist.strings in Resources */,
+				7A4E83EE172C724D00DBF507 /* Credits.rtf in Resources */,
+				7ADE9C39184B5AA500D5C902 /* LynPreferencesWindow.xib in Resources */,
+				7A4E83F7172C724D00DBF507 /* MainMenu.xib in Resources */,
+				7AA859DC17EF10B600D323D4 /* Icons.xcassets in Resources */,
+				7A5033C21732F6D1000D6550 /* Class.png in Resources */,
+				7A5033C31732F6D1000D6550 /* Folder.png in Resources */,
+				7AA859E117EF17F000D323D4 /* LynDocument.xib in Resources */,
+				7A5033C61732F8FE000D6550 /* Class 16x16.png in Resources */,
+				7A5033C71732F8FE000D6550 /* Folder 16x16.png in Resources */,
+				7AED224E17A92ACA009028D6 /* Lyn AppIcon.png in Resources */,
+				7AED224F17A92AD0009028D6 /* Lyn DocumentIcon.icns in Resources */,
+				7AED225017A92AD0009028D6 /* Lyn DocumentIcon.png in Resources */,
+				7AED225617A92AF7009028D6 /* Lyn AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E8405172C72E000DBF507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4E840E172C72E000DBF507 /* InfoPlist.strings in Resources */,
+				7AED225917A92D63009028D6 /* Lyn DocumentIcon.icns in Resources */,
+				7AED225A17A92D63009028D6 /* Lyn DocumentIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4FB68717F5B8090043425D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4FB69017F5B8090043425D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A07F80817AF91310002AD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A54F9B017AF942000DE3B3E /* LynProjectOutlineController.m in Sources */,
+				7A54F9B217AF942000DE3B3E /* LynVariableChooserView.m in Sources */,
+				7A54F9BA17AF949700DE3B3E /* LynOutlineController.m in Sources */,
+				7A43475F18088AB3008F651D /* LynDefineScopeViewHelperClasses.m in Sources */,
+				7A54F9BC17AF949700DE3B3E /* LynProjectOutlineView.m in Sources */,
+				7A54F9C217AF94D800DE3B3E /* LynEditorView.m in Sources */,
+				7A54F9C817AF950100DE3B3E /* LynProjectView.m in Sources */,
+				7A54F9D217AF952600DE3B3E /* LynClassOutlineController.m in Sources */,
+				7A54F9D417AF952600DE3B3E /* LynClassView.m in Sources */,
+				7A54F9F517AF95B700DE3B3E /* LynDefineScopeViewController.m in Sources */,
+				7ADE9C33184A18A200D5C902 /* LynProjectOutlineViewHelperClasses.m in Sources */,
+				7A4FB6B817F877F70043425D /* LynProjectSettingsManager.m in Sources */,
+				7A54FA0617AF95B700DE3B3E /* LynFillParametersViewController.m in Sources */,
+				7A54FA0A17AF95B700DE3B3E /* LynInspectorView.m in Sources */,
+				7A01773F18126D6C00DE1983 /* LynRunnerConsoleView.m in Sources */,
+				7A062800180891C900F709A1 /* LynFillParametersViewHelperClasses.m in Sources */,
+				7A0627FC1808918700F709A1 /* LynClassRowView.m in Sources */,
+				7A444EA1182FD6FB005CAD1E /* LynUseReturnValueViewController.m in Sources */,
+				7A48EAAC17AF969D00A015E5 /* LynWarningsView.m in Sources */,
+				7A43475B18088AB3008F651D /* LynDefineParametersViewController.m in Sources */,
+				7A0627EE1808910200F709A1 /* LynConditionsViewController.m in Sources */,
+				7AB613F517FDC2D300F34D76 /* LynLibraryViewHelperClasses.m in Sources */,
+				7A062804180892CA00F709A1 /* LynDefineParametersViewHelperClasses.m in Sources */,
+				7AAC4E38181E5B6500198B9B /* LynConditionsViewHelperClasses.m in Sources */,
+				7A0115F117BFEFB200A899CB /* LynLibraryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AC75172D268C006ACC4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AC82172D268D006ACC4B /* main.m in Sources */,
+				7A32AC96172D26E4006ACC4B /* LynRunnerDocument.m in Sources */,
+				7A1B3E5217B8210100DAE180 /* LynRunnerDelegate.m in Sources */,
+				7A71617617C26AF0000E3CE5 /* PreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E83D6172C724C00DBF507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADE9C38184B5AA500D5C902 /* LynPreferencesController.m in Sources */,
+				7ADE9C3C184B722900D5C902 /* LynPreferencesHelperClasses.m in Sources */,
+				7A4E83EA172C724D00DBF507 /* main.m in Sources */,
+				7A4E8400172C72A000DBF507 /* LynDocument.m in Sources */,
+				7AE69D9217B2582F00AF8BB2 /* StatusView.m in Sources */,
+				7A1B3E6A17B9335A00DAE180 /* DebugController.m in Sources */,
+				7A71617E17C3E8CD000E3CE5 /* LynDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4E8402172C72E000DBF507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4E841C172C752900DBF507 /* LynOutlineObject.m in Sources */,
+				7A32AC67172D1C23006ACC4B /* LynCommand.m in Sources */,
+				7A32AC6B172D1F32006ACC4B /* LynCommandWriteString.m in Sources */,
+				7A87DF891800094D0098A6F0 /* LynCondition.m in Sources */,
+				7A444E54182EE42A005CAD1E /* LynCommandWriteInteger.m in Sources */,
+				7A4FB6A117F619940043425D /* LynCommandPlaySound.m in Sources */,
+				7A32AC71172D22E1006ACC4B /* LynRunner.m in Sources */,
+				7AAF7331172D5AFA0022B49C /* LynProject.m in Sources */,
+				7A87DF8D18000E010098A6F0 /* LynCombiningCondition.m in Sources */,
+				7AAF7335172D5C050022B49C /* LynFolder.m in Sources */,
+				7AAF7339172D5D260022B49C /* LynProjectOutlineObject.m in Sources */,
+				7AAF733D172D5EB80022B49C /* LynClass.m in Sources */,
+				7AAF7341172D5F920022B49C /* LynFunction.m in Sources */,
+				7AE60AA41748FAA0002922DD /* LynParameter.m in Sources */,
+				7A4979421821A89800E98A2C /* LynComparingConditionString.m in Sources */,
+				7A4FB6A517F6CE1E0043425D /* LynComment.m in Sources */,
+				7AE60AAB1748FEE3002922DD /* LynParameterString.m in Sources */,
+				7AE60AC517497300002922DD /* LynCommandWriteLineBreak.m in Sources */,
+				7AAC672B176C64BB00296915 /* LynCommandWaitOneSecond.m in Sources */,
+				7A04C18E1800297C00E76BCA /* LynCommandIf.m in Sources */,
+				7ADAA45D178717B900EC41D8 /* LynCommandCallFunction.m in Sources */,
+				7A4FBD35181415650038DEAE /* LynComparingConditionBoolean.m in Sources */,
+				7A17B1D41825166C00ED1C0F /* LynCommandWhileLoop.m in Sources */,
+				7A444E9B182FCAA7005CAD1E /* LynCommandScanString.m in Sources */,
+				7ADAA461178717FC00EC41D8 /* LynScope.m in Sources */,
+				7ADAA467178719AE00EC41D8 /* LynVariable.m in Sources */,
+				7ADAA46F178723A100EC41D8 /* LynVariableString.m in Sources */,
+				7AF65C9A1842141E001319D3 /* LynCommandScanInteger.m in Sources */,
+				7A444E50182E42E3005CAD1E /* LynCommandForLoop.m in Sources */,
+				7ADAA4861789C3E700EC41D8 /* LynVariableInteger.m in Sources */,
+				7ADAA48A1789C4C300EC41D8 /* LynVariableBoolean.m in Sources */,
+				7A60B3F8178C915200F99B22 /* LynWarning.m in Sources */,
+				7A60B3FC178C923E00F99B22 /* LynError.m in Sources */,
+				7AEEEA8E17A98F9000BF817E /* LynParameterInteger.m in Sources */,
+				7AEEEA9217A9922C00BF817E /* LynCommandWait.m in Sources */,
+				7A07F80317AF887C0002AD16 /* LynParameterBoolean.m in Sources */,
+				7A6DD0F618521ACA004DECC6 /* LynCommandPostNotification.m in Sources */,
+				7AF65C961842111E001319D3 /* LynCommandScanBoolean.m in Sources */,
+				7A04C18318001C7500E76BCA /* LynComparingCondition.m in Sources */,
+				7AF0FF8017AFB28E00DE46BE /* LynCommandOpenApplication.m in Sources */,
+				7AAB03A517B17649009AA6F4 /* LynCommandOpenFile.m in Sources */,
+				7AAB03AA17B17B04009AA6F4 /* LynCommandOpenFileWithApplication.m in Sources */,
+				7A0115F717BFF44C00A899CB /* LynCommands.m in Sources */,
+				7A71617B17C3C55E000E3CE5 /* LynGeneral.m in Sources */,
+				7A49793E1821A77B00E98A2C /* LynComparingConditionInteger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4FB68517F5B8090043425D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3DF10118084AB1001646F3 /* LynScopeTests.m in Sources */,
+				7A4FB69917F5B8190043425D /* LynVariableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB613F617FF0DCD00F34D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB613FF17FF0DCD00F34D76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A48EAB417AF9C5A00A015E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A07F80C17AF91310002AD16 /* Lyn Kit */;
+			targetProxy = 7A48EAB317AF9C5A00A015E5 /* PBXContainerItemProxy */;
+		};
+		7A4FB69517F5B8090043425D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E8406172C72E000DBF507 /* Lyn Framework */;
+			targetProxy = 7A4FB69417F5B8090043425D /* PBXContainerItemProxy */;
+		};
+		7A87DF7F17FF0EFB0098A6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB613F917FF0DCD00F34D76 /* LynRunnerUtility */;
+			targetProxy = 7A87DF7E17FF0EFB0098A6F0 /* PBXContainerItemProxy */;
+		};
+		7AA02C4B174785F300CB80D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E8406172C72E000DBF507 /* Lyn Framework */;
+			targetProxy = 7AA02C4A174785F300CB80D3 /* PBXContainerItemProxy */;
+		};
+		7AA02C4D174785F300CB80D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E83D9172C724C00DBF507 /* Lyn */;
+			targetProxy = 7AA02C4C174785F300CB80D3 /* PBXContainerItemProxy */;
+		};
+		7AA02C4F174785F300CB80D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A32AC78172D268C006ACC4B /* LynRunner */;
+			targetProxy = 7AA02C4E174785F300CB80D3 /* PBXContainerItemProxy */;
+		};
+		7AF65C9C18421924001319D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E8406172C72E000DBF507 /* Lyn Framework */;
+			targetProxy = 7AF65C9B18421924001319D3 /* PBXContainerItemProxy */;
+		};
+		7AF65C9E18421924001319D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A07F80C17AF91310002AD16 /* Lyn Kit */;
+			targetProxy = 7AF65C9D18421924001319D3 /* PBXContainerItemProxy */;
+		};
+		7AF65CA01842192C001319D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E8406172C72E000DBF507 /* Lyn Framework */;
+			targetProxy = 7AF65C9F1842192C001319D3 /* PBXContainerItemProxy */;
+		};
+		7AF65CA21842192C001319D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A07F80C17AF91310002AD16 /* Lyn Kit */;
+			targetProxy = 7AF65CA11842192C001319D3 /* PBXContainerItemProxy */;
+		};
+		7AF65CA418421937001319D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E8406172C72E000DBF507 /* Lyn Framework */;
+			targetProxy = 7AF65CA318421937001319D3 /* PBXContainerItemProxy */;
+		};
+		7AFBC1E21820F4E1006067B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4E8406172C72E000DBF507 /* Lyn Framework */;
+			targetProxy = 7AFBC1E11820F4E1006067B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A07F81217AF91320002AD16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A07F81317AF91320002AD16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A32AC7E172D268D006ACC4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A32AC7F172D268D006ACC4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A32AC84172D268D006ACC4B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A32AC85172D268D006ACC4B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7A32AC8D172D268D006ACC4B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A32AC8E172D268D006ACC4B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7A4E83E6172C724D00DBF507 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4E83E7172C724D00DBF507 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A4E83EC172C724D00DBF507 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4E83ED172C724D00DBF507 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7A4E83F5172C724D00DBF507 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4E83F6172C724D00DBF507 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7A4E840C172C72E000DBF507 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4E840D172C72E000DBF507 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A4FB68E17F5B8090043425D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4FB68F17F5B8090043425D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A07F81A17AF91320002AD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn Kit/Lyn Kit-Prefix.pch";
+				INFOPLIST_FILE = "Lyn Kit/Lyn Kit-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = LynKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		7A07F81B17AF91320002AD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn Kit/Lyn Kit-Prefix.pch";
+				INFOPLIST_FILE = "Lyn Kit/Lyn Kit-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = LynKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		7A32AC91172D268D006ACC4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynRunner/LynRunner-Prefix.pch";
+				INFOPLIST_FILE = "LynRunner/LynRunner-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "APS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A32AC92172D268D006ACC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynRunner/LynRunner-Prefix.pch";
+				INFOPLIST_FILE = "LynRunner/LynRunner-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "APS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A4E83F8172C724D00DBF507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7A4E83F9172C724D00DBF507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7A4E83FB172C724D00DBF507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn/Lyn-Prefix.pch";
+				INFOPLIST_FILE = "Lyn/Lyn-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "APS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A4E83FC172C724D00DBF507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn/Lyn-Prefix.pch";
+				INFOPLIST_FILE = "Lyn/Lyn-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "APS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A4E8414172C72E000DBF507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn Framework/Lyn Framework-Prefix.pch";
+				INFOPLIST_FILE = "Lyn Framework/Lyn Framework-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "APS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		7A4E8415172C72E000DBF507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn Framework/Lyn Framework-Prefix.pch";
+				INFOPLIST_FILE = "Lyn Framework/Lyn Framework-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "APS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		7A4FB69717F5B8090043425D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn Framework Tests/Lyn Framework Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Lyn Framework Tests/Lyn Framework Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "TT.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A4FB69817F5B8090043425D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyn Framework Tests/Lyn Framework Tests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Lyn Framework Tests/Lyn Framework Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "TT.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		7AA02C47174785DE00CB80D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AA02C48174785DE00CB80D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AB6140517FF0DCD00F34D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynRunnerUtility/LynRunnerUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AB6140617FF0DCD00F34D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynRunnerUtility/LynRunnerUtility-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A07F81917AF91320002AD16 /* Build configuration list for PBXNativeTarget "Lyn Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A07F81A17AF91320002AD16 /* Debug */,
+				7A07F81B17AF91320002AD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A32AC90172D268D006ACC4B /* Build configuration list for PBXNativeTarget "LynRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A32AC91172D268D006ACC4B /* Debug */,
+				7A32AC92172D268D006ACC4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4E83D5172C724C00DBF507 /* Build configuration list for PBXProject "Lyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4E83F8172C724D00DBF507 /* Debug */,
+				7A4E83F9172C724D00DBF507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4E83FA172C724D00DBF507 /* Build configuration list for PBXNativeTarget "Lyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4E83FB172C724D00DBF507 /* Debug */,
+				7A4E83FC172C724D00DBF507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4E8413172C72E000DBF507 /* Build configuration list for PBXNativeTarget "Lyn Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4E8414172C72E000DBF507 /* Debug */,
+				7A4E8415172C72E000DBF507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4FB69617F5B8090043425D /* Build configuration list for PBXNativeTarget "Lyn Framework Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4FB69717F5B8090043425D /* Debug */,
+				7A4FB69817F5B8090043425D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA02C49174785DE00CB80D3 /* Build configuration list for PBXAggregateTarget "Everything" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA02C47174785DE00CB80D3 /* Debug */,
+				7AA02C48174785DE00CB80D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB6140417FF0DCD00F34D76 /* Build configuration list for PBXNativeTarget "LynRunnerUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB6140517FF0DCD00F34D76 /* Debug */,
+				7AB6140617FF0DCD00F34D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A4E83D2172C724C00DBF507 /* Project object */;
+}
